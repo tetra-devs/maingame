@@ -1,0 +1,496 @@
+[gd_scene load_steps=128 format=2]
+
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_0_Idle0.png" type="Texture" id=1]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_4_Idle0.png" type="Texture" id=2]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_5_Idle0.png" type="Texture" id=3]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_3_Idle0.png" type="Texture" id=4]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_2_Idle0.png" type="Texture" id=5]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_1_Idle0.png" type="Texture" id=6]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_6_Idle0.png" type="Texture" id=7]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_0_Run3.png" type="Texture" id=8]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_0_Run6.png" type="Texture" id=9]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_0_Run8.png" type="Texture" id=10]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_0_Run0.png" type="Texture" id=11]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_7_Idle0.png" type="Texture" id=12]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_0_Run2.png" type="Texture" id=13]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_0_Run7.png" type="Texture" id=14]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_0_Run5.png" type="Texture" id=15]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_0_Run9.png" type="Texture" id=16]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_0_Run4.png" type="Texture" id=17]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_0_Run1.png" type="Texture" id=18]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_1_Run1.png" type="Texture" id=19]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_1_Run6.png" type="Texture" id=20]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_2_Run9.png" type="Texture" id=21]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_1_Run7.png" type="Texture" id=22]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_2_Run7.png" type="Texture" id=23]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_2_Run6.png" type="Texture" id=24]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_1_Run5.png" type="Texture" id=25]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_2_Run3.png" type="Texture" id=26]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_2_Run5.png" type="Texture" id=27]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_2_Run1.png" type="Texture" id=28]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_1_Run2.png" type="Texture" id=29]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_1_Run4.png" type="Texture" id=30]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_1_Run0.png" type="Texture" id=31]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_2_Run2.png" type="Texture" id=32]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_2_Run0.png" type="Texture" id=33]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_1_Run3.png" type="Texture" id=34]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_1_Run8.png" type="Texture" id=35]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_2_Run4.png" type="Texture" id=36]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_2_Run8.png" type="Texture" id=37]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_1_Run9.png" type="Texture" id=38]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_3_Run4.png" type="Texture" id=39]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_3_Run1.png" type="Texture" id=40]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_3_Run0.png" type="Texture" id=41]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_3_Run9.png" type="Texture" id=42]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_3_Run7.png" type="Texture" id=43]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_3_Run8.png" type="Texture" id=44]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_3_Run5.png" type="Texture" id=45]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_3_Run3.png" type="Texture" id=46]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_3_Run2.png" type="Texture" id=47]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_3_Run6.png" type="Texture" id=48]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_4_Run9.png" type="Texture" id=49]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_4_Run8.png" type="Texture" id=50]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_4_Run6.png" type="Texture" id=51]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_4_Run0.png" type="Texture" id=52]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_4_Run3.png" type="Texture" id=53]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_4_Run2.png" type="Texture" id=54]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_4_Run4.png" type="Texture" id=55]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_4_Run1.png" type="Texture" id=56]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_4_Run5.png" type="Texture" id=57]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_4_Run7.png" type="Texture" id=58]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_5_Run0.png" type="Texture" id=59]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_5_Run5.png" type="Texture" id=60]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_5_Run2.png" type="Texture" id=61]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_5_Run9.png" type="Texture" id=62]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_6_Run1.png" type="Texture" id=63]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_6_Run9.png" type="Texture" id=64]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_6_Run7.png" type="Texture" id=65]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_6_Run6.png" type="Texture" id=66]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_5_Run7.png" type="Texture" id=67]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_6_Run5.png" type="Texture" id=68]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_5_Run4.png" type="Texture" id=69]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_5_Run6.png" type="Texture" id=70]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_6_Run2.png" type="Texture" id=71]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_6_Run4.png" type="Texture" id=72]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_5_Run8.png" type="Texture" id=73]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_6_Run8.png" type="Texture" id=74]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_6_Run3.png" type="Texture" id=75]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_6_Run0.png" type="Texture" id=76]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_5_Run1.png" type="Texture" id=77]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_5_Run3.png" type="Texture" id=78]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_7_Run3.png" type="Texture" id=79]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_7_Run8.png" type="Texture" id=80]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_7_Run4.png" type="Texture" id=81]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_7_Run1.png" type="Texture" id=82]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_7_Run7.png" type="Texture" id=83]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_7_Run6.png" type="Texture" id=84]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_7_Run0.png" type="Texture" id=85]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_7_Run2.png" type="Texture" id=86]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_7_Run9.png" type="Texture" id=87]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Characters/Male/Male_7_Run5.png" type="Texture" id=88]
+[ext_resource path="res://resources/script/Player.gd" type="Script" id=89]
+
+[sub_resource type="Animation" id=1]
+resource_name = "idle_0"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 1 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "idle_1"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 6 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "idle_2"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 5 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "idle_3"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 4 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "idle_4"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 2 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "idle_5"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 3 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "idle_6"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 7 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "idle_7"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 12 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+resource_name = "run_0"
+length = 0.9
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 11 ), ExtResource( 18 ), ExtResource( 13 ), ExtResource( 8 ), ExtResource( 17 ), ExtResource( 15 ), ExtResource( 9 ), ExtResource( 14 ), ExtResource( 10 ), ExtResource( 16 ), ExtResource( 11 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+resource_name = "run_1"
+length = 0.9
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 31 ), ExtResource( 19 ), ExtResource( 29 ), ExtResource( 34 ), ExtResource( 30 ), ExtResource( 25 ), ExtResource( 20 ), ExtResource( 22 ), ExtResource( 35 ), ExtResource( 38 ) ]
+}
+
+[sub_resource type="Animation" id=11]
+resource_name = "run_2"
+length = 0.9
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 33 ), ExtResource( 28 ), ExtResource( 32 ), ExtResource( 26 ), ExtResource( 36 ), ExtResource( 27 ), ExtResource( 24 ), ExtResource( 23 ), ExtResource( 37 ), ExtResource( 21 ) ]
+}
+
+[sub_resource type="Animation" id=12]
+resource_name = "run_3"
+length = 0.9
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 41 ), ExtResource( 40 ), ExtResource( 47 ), ExtResource( 46 ), ExtResource( 39 ), ExtResource( 45 ), ExtResource( 48 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 42 ) ]
+}
+
+[sub_resource type="Animation" id=13]
+resource_name = "run_4"
+length = 0.9
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 52 ), ExtResource( 56 ), ExtResource( 54 ), ExtResource( 53 ), ExtResource( 55 ), ExtResource( 57 ), ExtResource( 51 ), ExtResource( 58 ), ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=14]
+resource_name = "run_5"
+length = 0.9
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 59 ), ExtResource( 77 ), ExtResource( 61 ), ExtResource( 78 ), ExtResource( 69 ), ExtResource( 60 ), ExtResource( 70 ), ExtResource( 67 ), ExtResource( 73 ), ExtResource( 62 ) ]
+}
+
+[sub_resource type="Animation" id=15]
+resource_name = "run_6"
+length = 0.9
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 76 ), ExtResource( 63 ), ExtResource( 71 ), ExtResource( 75 ), ExtResource( 72 ), ExtResource( 68 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 74 ), ExtResource( 64 ) ]
+}
+
+[sub_resource type="Animation" id=16]
+resource_name = "run_7"
+length = 0.9
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 85 ), ExtResource( 82 ), ExtResource( 86 ), ExtResource( 79 ), ExtResource( 81 ), ExtResource( 88 ), ExtResource( 84 ), ExtResource( 83 ), ExtResource( 80 ), ExtResource( 87 ) ]
+}
+
+[sub_resource type="AnimationNodeAnimation" id=17]
+animation = "idle_3"
+
+[sub_resource type="AnimationNodeAnimation" id=18]
+animation = "idle_5"
+
+[sub_resource type="AnimationNodeAnimation" id=19]
+animation = "idle_1"
+
+[sub_resource type="AnimationNodeAnimation" id=20]
+animation = "idle_7"
+
+[sub_resource type="AnimationNodeAnimation" id=21]
+animation = "idle_2"
+
+[sub_resource type="AnimationNodeAnimation" id=22]
+animation = "idle_4"
+
+[sub_resource type="AnimationNodeAnimation" id=23]
+animation = "idle_6"
+
+[sub_resource type="AnimationNodeAnimation" id=24]
+animation = "idle_0"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id=25]
+blend_point_0/node = SubResource( 17 )
+blend_point_0/pos = Vector2( 0, 1 )
+blend_point_1/node = SubResource( 18 )
+blend_point_1/pos = Vector2( -1, 0 )
+blend_point_2/node = SubResource( 19 )
+blend_point_2/pos = Vector2( 1, 0 )
+blend_point_3/node = SubResource( 20 )
+blend_point_3/pos = Vector2( 0, -1 )
+blend_point_4/node = SubResource( 21 )
+blend_point_4/pos = Vector2( 0.71, 0.71 )
+blend_point_5/node = SubResource( 22 )
+blend_point_5/pos = Vector2( -0.71, 0.71 )
+blend_point_6/node = SubResource( 23 )
+blend_point_6/pos = Vector2( -0.71, -0.71 )
+blend_point_7/node = SubResource( 24 )
+blend_point_7/pos = Vector2( 0.71, -0.71 )
+blend_mode = 1
+
+[sub_resource type="AnimationNodeAnimation" id=26]
+animation = "run_3"
+
+[sub_resource type="AnimationNodeAnimation" id=27]
+animation = "run_7"
+
+[sub_resource type="AnimationNodeAnimation" id=28]
+animation = "run_5"
+
+[sub_resource type="AnimationNodeAnimation" id=29]
+animation = "run_1"
+
+[sub_resource type="AnimationNodeAnimation" id=30]
+animation = "run_2"
+
+[sub_resource type="AnimationNodeAnimation" id=31]
+animation = "run_4"
+
+[sub_resource type="AnimationNodeAnimation" id=32]
+animation = "run_6"
+
+[sub_resource type="AnimationNodeAnimation" id=33]
+animation = "run_1"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id=34]
+blend_point_0/node = SubResource( 26 )
+blend_point_0/pos = Vector2( 0, 1 )
+blend_point_1/node = SubResource( 27 )
+blend_point_1/pos = Vector2( 0, -1 )
+blend_point_2/node = SubResource( 28 )
+blend_point_2/pos = Vector2( -1, 0 )
+blend_point_3/node = SubResource( 29 )
+blend_point_3/pos = Vector2( 1, 0.1 )
+blend_point_4/node = SubResource( 30 )
+blend_point_4/pos = Vector2( 0.71, 0.71 )
+blend_point_5/node = SubResource( 31 )
+blend_point_5/pos = Vector2( -0.71, 0.71 )
+blend_point_6/node = SubResource( 32 )
+blend_point_6/pos = Vector2( -0.71, -0.71 )
+blend_point_7/node = SubResource( 33 )
+blend_point_7/pos = Vector2( 0.71, -0.71 )
+blend_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=35]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=36]
+
+[sub_resource type="AnimationNodeStateMachine" id=37]
+states/idle/node = SubResource( 25 )
+states/idle/position = Vector2( 160, 76.375 )
+states/run/node = SubResource( 34 )
+states/run/position = Vector2( 321.5, 76.5 )
+transitions = [ "idle", "run", SubResource( 35 ), "run", "idle", SubResource( 36 ) ]
+start_node = "idle"
+
+[sub_resource type="AnimationNodeStateMachinePlayback" id=38]
+
+[node name="Player" type="KinematicBody2D"]
+position = Vector2( -0.383728, 0 )
+script = ExtResource( 89 )
+max_speed = 200.0
+acceleration = 300.0
+friction = 600.0
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -8.13553, 180.961 )
+rotation = 1.49911
+scale = Vector2( 1, 1.0017 )
+polygon = PoolVector2Array( -3.59201, -3.786, 0.856781, 14.5816, 17.7483, 20.4007, 29.5945, -5.24709, 19.9274, -31.2851, -1.53299, -27.0633 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/idle_0 = SubResource( 1 )
+anims/idle_1 = SubResource( 2 )
+anims/idle_2 = SubResource( 3 )
+anims/idle_3 = SubResource( 4 )
+anims/idle_4 = SubResource( 5 )
+anims/idle_5 = SubResource( 6 )
+anims/idle_6 = SubResource( 7 )
+anims/idle_7 = SubResource( 8 )
+anims/run_0 = SubResource( 9 )
+anims/run_1 = SubResource( 10 )
+anims/run_2 = SubResource( 11 )
+anims/run_3 = SubResource( 12 )
+anims/run_4 = SubResource( 13 )
+anims/run_5 = SubResource( 14 )
+anims/run_6 = SubResource( 15 )
+anims/run_7 = SubResource( 16 )
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource( 37 )
+anim_player = NodePath("../AnimationPlayer")
+active = true
+parameters/playback = SubResource( 38 )
+parameters/idle/blend_position = Vector2( -0.780275, 0.781116 )
+parameters/run/blend_position = Vector2( -0.239789, 0.124464 )
