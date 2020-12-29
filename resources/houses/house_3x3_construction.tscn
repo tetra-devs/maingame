@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://resources/rooms/rooms.tres" type="TileSet" id=1]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Base" type="TileMap" parent="."]
+position = Vector2( 6.10352e-05, 4.48975 )
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -196612, 116, 0, -196611, 116, 0, -196610, 116, 0, -131076, 116, 0, -131075, 116, 0, -131074, 116, 0, -65540, 116, 0, -65539, 116, 0, -65538, 116, 0 )
+
+[node name="Walls" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -262147, 165, 0, -196612, 158, 0, -196610, 159, 0, -131076, 228, 0, -131073, 228, 0, -65540, 156, 0, -65539, 225, 0, -65538, 157, 0 )
+
+[node name="roof" type="TileMap" parent="."]
+position = Vector2( 13.4695, -35.9188 )
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -262149, 51, 0, -262148, 51, 0, -262147, 51, 0, -196613, 43, 0, -196612, 43, 0, -196611, 43, 0, -131077, 51, 0, -131076, 51, 0, -131075, 43, 0 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( 3.29132, 260.538, 131.252, 197.68, 162.681, 211.15, 286.152, 148.292, 288.397, 121.353, 389.418, 65.2299, 384.928, 45.0255, 375.949, 33.8009, 378.194, -94.1597, 389.418, -112.119, 277.172, -165.997, 155.946, -235.59, 12.271, -296.203, -378.346, -100.894, -376.101, 31.556, -382.836, 60.74 )
