@@ -1,0 +1,187 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=2]
+[ext_resource path="res://Library/table.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Library/Table_t2.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Library/bookShelf1.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Library/bookShelf2.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Library/bookShelf4.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Library/bookShelf3.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Library/bookShelf6.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Library/bookShelf7.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Library/bookShelf8.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Library/bookShelf5.tscn" type="PackedScene" id=12]
+[ext_resource path="res://Library/bookShelf6b.tscn" type="PackedScene" id=13]
+[ext_resource path="res://Library/bookShelf9.tscn" type="PackedScene" id=14]
+[ext_resource path="res://Library/bookShelf10.tscn" type="PackedScene" id=15]
+
+[node name="Library" type="Node"]
+
+[node name="Floor" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( 327677, 164, 0, 327678, 164, 0, 327679, 164, 0, 262144, 164, 0, 262145, 164, 0, 262146, 47, 0, 262147, 48, 0, 262148, 48, 0, 262149, 164, 0, 262150, 167, 0, 262151, 164, 0, 262152, 164, 0, 262153, 165, 0, 262154, 164, 0, 262155, 164, 0, 262156, 164, 0, 393213, 164, 0, 393214, 164, 0, 393215, 164, 0, 327680, 164, 0, 327681, 51, 0, 327682, 51, 0, 327683, 48, 0, 327684, 38, 0, 327685, 48, 0, 327686, 48, 0, 327687, 164, 0, 327688, 164, 0, 327689, 164, 0, 327690, 165, 0, 327691, 39, 0, 327692, 164, 0, 458749, 164, 0, 458750, 164, 0, 458751, 164, 0, 393216, 164, 0, 393217, 51, 0, 393218, 48, 0, 393219, 164, 0, 393220, 164, 0, 393221, 164, 0, 393222, 164, 0, 393223, 164, 0, 393224, 164, 0, 393225, 167, 0, 393226, 166, 0, 393227, 165, 0, 393228, 164, 0, 524285, 164, 0, 524286, 51, 0, 524287, 165, 0, 458752, 164, 0, 458753, 165, 0, 458754, 48, 0, 458755, 164, 0, 458756, 164, 0, 458757, 164, 0, 458758, 164, 0, 458759, 164, 0, 458760, 164, 0, 458761, 164, 0, 458762, 164, 0, 458763, 50, 0, 458764, 164, 0, 589821, 164, 0, 589822, 51, 0, 589823, 51, 0, 524288, 48, 0, 524289, 164, 0, 524290, 164, 0, 524291, 164, 0, 524292, 164, 0, 524293, 165, 0, 524294, 164, 0, 524295, 164, 0, 524296, 164, 0, 524297, 164, 0, 524298, 164, 0, 524299, 164, 0, 524300, 164, 0, 655357, 164, 0, 655358, 164, 0, 655359, 51, 0, 589824, 48, 0, 589825, 164, 0, 589826, 164, 0, 589827, 164, 0, 589828, 164, 0, 589829, 167, 0, 589830, 164, 0, 589831, 50, 0, 589832, 50, 0, 589833, 164, 0, 589834, 164, 0, 589835, 164, 0, 589836, 164, 0, 720893, 164, 0, 720894, 164, 0, 720895, 51, 0, 655360, 164, 0, 655361, 44, 0, 655362, 165, 0, 655363, 166, 0, 655364, 164, 0, 655365, 164, 0, 655366, 164, 0, 655367, 38, 0, 655368, 21, 0, 655369, 164, 0, 655370, 164, 0, 655371, 164, 0, 655372, 164, 0, 786429, 164, 0, 786430, 164, 0, 786431, 51, 0, 720896, 164, 0, 720897, 164, 0, 720898, 165, 0, 720899, 164, 0, 720900, 164, 0, 720901, 164, 0, 720902, 164, 0, 720903, 41, 0, 720904, 164, 0, 720905, 164, 0, 720906, 164, 0, 720907, 164, 0, 720908, 164, 0, 851965, 164, 0, 851966, 164, 0, 851967, 164, 0, 786432, 164, 0, 786433, 165, 0, 786434, 164, 0, 786435, 164, 0, 786436, 167, 0, 786437, 164, 0, 786438, 164, 0, 786439, 164, 0, 786440, 164, 0, 786441, 164, 0, 786442, 164, 0, 786443, 164, 0, 786444, 164, 0, 917501, 164, 0, 917502, 164, 0, 917503, 164, 0, 851968, 164, 0, 851969, 164, 0, 851970, 50, 0, 851971, 51, 0, 851972, 164, 0, 851973, 164, 0, 851974, 164, 0, 851975, 164, 0, 851976, 164, 0, 851977, 164, 0, 851978, 164, 0, 851979, 167, 0, 851980, 164, 0, 983037, 164, 0, 983038, 164, 0, 983039, 164, 0, 917504, 164, 0, 917505, 48, 0, 917506, 51, 0, 917507, 164, 0, 917508, 51, 0, 917509, 164, 0, 917510, 164, 0, 917511, 164, 0, 917512, 165, 0, 917513, 164, 0, 917514, 164, 0, 917515, 164, 0, 917516, 164, 0, 1048573, 164, 0, 1048574, 164, 0, 1048575, 164, 0, 983040, 164, 0, 983041, 48, 0, 983042, 49, 0, 983043, 164, 0, 983044, 164, 0, 983045, 32, 0, 983046, 26, 0, 983047, 164, 0, 983048, 167, 0, 983049, 164, 0, 983050, 164, 0, 983051, 164, 0, 983052, 164, 0, 1114109, 164, 0, 1114110, 164, 0, 1114111, 164, 0, 1048576, 164, 0, 1048577, 164, 0, 1048578, 164, 0, 1048579, 164, 0, 1048580, 32, 0, 1048581, 30, 0, 1048582, 31, 0, 1048583, 164, 0, 1048584, 164, 0, 1048585, 164, 0, 1048586, 164, 0, 1048587, 164, 0, 1048588, 164, 0, 1179645, 164, 0, 1179646, 164, 0, 1179647, 164, 0, 1114112, 164, 0, 1114113, 164, 0, 1114114, 164, 0, 1114115, 164, 0, 1114116, 23, 0, 1114117, 25, 0, 1114118, 17, 0, 1114119, 167, 0, 1114120, 164, 0, 1114121, 164, 0, 1114122, 164, 0, 1114123, 164, 0, 1114124, 45, 0, 1245181, 164, 0, 1245182, 164, 0, 1245183, 48, 0, 1179648, 48, 0, 1179649, 164, 0, 1179650, 164, 0, 1179651, 164, 0, 1179652, 164, 0, 1179653, 164, 0, 1179654, 164, 0, 1179655, 164, 0, 1179656, 164, 0, 1179657, 164, 0, 1179658, 164, 0, 1179659, 46, 0, 1179660, 164, 0, 1310717, 164, 0, 1310718, 164, 0, 1310719, 164, 0, 1245184, 164, 0, 1245185, 164, 0, 1245186, 164, 0, 1245187, 164, 0, 1245188, 164, 0, 1245189, 164, 0, 1245190, 164, 0, 1245191, 164, 0, 1245192, 164, 0, 1245193, 164, 0, 1245194, 164, 0, 1245195, 164, 0, 1245196, 164, 0 )
+
+[node name="walls" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( 327677, 90, 0, 327678, 130, 0, 327679, 62, 0, 262144, 62, 0, 262145, 82, 0, 262146, 62, 0, 262147, 62, 0, 262148, 62, 0, 262149, 82, 0, 262150, 62, 0, 262151, 126, 0, 262152, 62, 0, 262153, 82, 0, 262154, 62, 0, 262155, 62, 0, 262156, 74, 0, 393213, 60, 0, 327692, 63, 0, 458749, 60, 0, 393228, 139, 0, 524285, 80, 0, 458764, 63, 0, 589821, 60, 0, 524300, 79, 0, 655357, 60, 0, 589836, 147, 0, 720893, 128, 0, 655372, 63, 0, 786429, 60, 0, 720908, 63, 0, 851965, 60, 0, 786444, 63, 0, 917501, 60, 0, 851980, 83, 0, 983037, 80, 0, 917516, 67, 0, 1048573, 52, 0, 983052, 67, 0, 1114109, 56, 0, 1048588, 63, 0, 1179645, 60, 0, 1114124, 63, 0, 1245181, 60, 0, 1179660, 63, 0, 1310717, 88, 0, 1310718, 117, 0, 1310719, 61, 0, 1245184, 81, 0, 1245185, 125, 0, 1245186, 61, 0, 1245187, 61, 0, 1245188, 81, 0, 1245189, 61, 0, 1245190, 117, 0, 1245191, 117, 0, 1245192, 117, 0, 1245193, 117, 0, 1245194, 81, 0, 1245195, 61, 0, 1245196, 89, 0 )
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="Player" parent="YSort" instance=ExtResource( 1 )]
+position = Vector2( -1136.03, 1273.64 )
+motion/sync_to_physics = true
+
+[node name="Table" type="YSort" parent="YSort"]
+
+[node name="Table_t2" parent="YSort/Table" instance=ExtResource( 4 )]
+position = Vector2( -1711.8, 1252.9 )
+
+[node name="Table7" parent="YSort/Table" instance=ExtResource( 3 )]
+position = Vector2( -1617.05, 1426.93 )
+
+[node name="Table6" parent="YSort/Table" instance=ExtResource( 3 )]
+position = Vector2( -1441.78, 1334.39 )
+
+[node name="Table1" parent="YSort/Table" instance=ExtResource( 3 )]
+position = Vector2( -1023.43, 1646.1 )
+
+[node name="Table2" parent="YSort/Table" instance=ExtResource( 3 )]
+position = Vector2( -1209.29, 1743.43 )
+
+[node name="Table3 " parent="YSort/Table" instance=ExtResource( 3 )]
+position = Vector2( -1061.28, 1819.15 )
+
+[node name="Table4 " parent="YSort/Table" instance=ExtResource( 3 )]
+position = Vector2( -858.389, 1917.37 )
+
+[node name="Table5" parent="YSort/Table" instance=ExtResource( 3 )]
+position = Vector2( -659.442, 1845.84 )
+
+[node name="Table_t3" parent="YSort/Table" instance=ExtResource( 4 )]
+position = Vector2( -447.091, 1676.71 )
+
+[node name="Table_t4" parent="YSort/Table" instance=ExtResource( 4 )]
+position = Vector2( -611.906, 1575.8 )
+
+[node name="Table8" parent="YSort/Table" instance=ExtResource( 3 )]
+position = Vector2( -880.613, 1720.87 )
+
+[node name="Bookcase" type="YSort" parent="YSort"]
+
+[node name="Bookself2" parent="YSort/Bookcase" instance=ExtResource( 5 )]
+position = Vector2( -876.217, 825.941 )
+
+[node name="Bookself1" parent="YSort/Bookcase" instance=ExtResource( 5 )]
+position = Vector2( -802.594, 790.074 )
+
+[node name="Bookself17" parent="YSort/Bookcase" instance=ExtResource( 5 )]
+position = Vector2( -411.587, 1038.11 )
+
+[node name="Bookself18" parent="YSort/Bookcase" instance=ExtResource( 5 )]
+position = Vector2( -485.719, 1074.94 )
+
+[node name="Bookself19" parent="YSort/Bookcase" instance=ExtResource( 5 )]
+position = Vector2( -561.349, 1112.81 )
+
+[node name="Bookself20" parent="YSort/Bookcase" instance=ExtResource( 5 )]
+position = Vector2( -635.635, 1149.63 )
+
+[node name="Bookself4" parent="YSort/Bookcase" instance=ExtResource( 6 )]
+position = Vector2( -1026.6, 822.761 )
+
+[node name="Bookself7" parent="YSort/Bookcase" instance=ExtResource( 8 )]
+position = Vector2( -1351.02, 614.614 )
+
+[node name="Bookself8" parent="YSort/Bookcase" instance=ExtResource( 8 )]
+position = Vector2( -1221.31, 551.723 )
+
+[node name="Bookself9" parent="YSort/Bookcase" instance=ExtResource( 8 )]
+position = Vector2( -1093.26, 489.523 )
+
+[node name="Bookself6" parent="YSort/Bookcase" instance=ExtResource( 6 )]
+position = Vector2( -879.767, 749.345 )
+
+[node name="Bookself3" parent="YSort/Bookcase" instance=ExtResource( 5 )]
+position = Vector2( -949.634, 861.901 )
+
+[node name="Bookself5" parent="YSort/Bookcase" instance=ExtResource( 6 )]
+position = Vector2( -954.518, 785.386 )
+
+[node name="Bookself16" parent="YSort/Bookcase" instance=ExtResource( 6 )]
+position = Vector2( -703.758, 1112.76 )
+
+[node name="Bookself12" parent="YSort/Bookcase" instance=ExtResource( 6 )]
+position = Vector2( -628.929, 1073.69 )
+
+[node name="Bookself14" parent="YSort/Bookcase" instance=ExtResource( 6 )]
+position = Vector2( -553.364, 1035.85 )
+
+[node name="Bookself15" parent="YSort/Bookcase" instance=ExtResource( 6 )]
+position = Vector2( -477.268, 1000.09 )
+
+[node name="Bookself10" parent="YSort/Bookcase" instance=ExtResource( 7 )]
+position = Vector2( -340.179, 624.921 )
+
+[node name="Bookself11" parent="YSort/Bookcase" instance=ExtResource( 7 )]
+position = Vector2( -210.561, 689.167 )
+
+[node name="Bookself13" parent="YSort/Bookcase" instance=ExtResource( 7 )]
+position = Vector2( -78.1611, 753.458 )
+
+[node name="Bookself21" parent="YSort/Bookcase" instance=ExtResource( 9 )]
+position = Vector2( 190.281, 1062.97 )
+
+[node name="Bookself22" parent="YSort/Bookcase" instance=ExtResource( 9 )]
+position = Vector2( 62.4233, 1128.9 )
+
+[node name="Bookself23" parent="YSort/Bookcase" instance=ExtResource( 9 )]
+position = Vector2( -702.021, 741.495 )
+
+[node name="Bookself24" parent="YSort/Bookcase" instance=ExtResource( 9 )]
+position = Vector2( -67.7014, 1194.07 )
+
+[node name="Bookself25" parent="YSort/Bookcase" instance=ExtResource( 13 )]
+position = Vector2( 122.385, 1025.59 )
+
+[node name="Bookself26" parent="YSort/Bookcase" instance=ExtResource( 13 )]
+position = Vector2( -6.66925, 1091.25 )
+
+[node name="Bookself27" parent="YSort/Bookcase" instance=ExtResource( 13 )]
+position = Vector2( -775.669, 698.938 )
+
+[node name="Bookself28" parent="YSort/Bookcase" instance=ExtResource( 10 )]
+position = Vector2( -147.597, 1167.7 )
+
+[node name="Bookself29" parent="YSort/Bookcase" instance=ExtResource( 12 )]
+position = Vector2( -738.764, 1170.07 )
+
+[node name="Bookself30" parent="YSort/Bookcase" instance=ExtResource( 12 )]
+position = Vector2( -448.45, 575.876 )
+
+[node name="Bookself31" parent="YSort/Bookcase" instance=ExtResource( 12 )]
+position = Vector2( -524.32, 535.145 )
+
+[node name="Bookself32" parent="YSort/Bookcase" instance=ExtResource( 11 )]
+position = Vector2( -1613.72, 755.416 )
+
+[node name="Bookself33" parent="YSort/Bookcase" instance=ExtResource( 11 )]
+position = Vector2( 571.736, 1130.96 )
+
+[node name="Bookself34" parent="YSort/Bookcase" instance=ExtResource( 14 )]
+position = Vector2( -149.737, 1454.34 )
+
+[node name="Bookself35" parent="YSort/Bookcase" instance=ExtResource( 14 )]
+position = Vector2( -20.149, 1519.04 )
+
+[node name="Bookself36" parent="YSort/Bookcase" instance=ExtResource( 15 )]
+position = Vector2( -88.2968, 1423.01 )
+
+[node name="Bookself37" parent="YSort/Bookcase" instance=ExtResource( 15 )]
+position = Vector2( 45.7334, 1487.19 )
