@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://resources/rooms/rooms.tres" type="TileSet" id=1]
+[ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=2]
+
+[node name="house_east" type="StaticBody2D"]
+
+[node name="Base" type="TileMap" parent="."]
+position = Vector2( -27.3115, 178.769 )
+mode = 1
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -131075, 167, 0, -131074, 167, 0, -131073, 167, 0, -196608, 167, 0, -65539, 167, 0, -65538, 167, 0, -65537, 167, 0, -131072, 167, 0, -3, 167, 0, -2, 167, 0, -1, 167, 0, -65536, 167, 0, 65533, 167, 0, 65534, 167, 0, 65535, 167, 0, 131069, 167, 0, 131070, 167, 0 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -28.3599, 176.673 )
+polygon = PoolVector2Array( 25.5357, -13.4865, 508.795, 233.953, 513.58, 253.776, 128.886, 449.95, -120.279, 450.877, -277.521, 449.829, -381.3, 447.732, -643.235, 317.208, -640.501, 300.803, 1.74872, -22.099 )
+
+[node name="walls" type="TileMap" parent="."]
+position = Vector2( -27.3115, 178.769 )
+mode = 1
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -196611, 61, 0, -196610, 61, 0, -196609, 61, 0, -262144, 61, 0, -131075, 60, 0, -131073, 67, 0, -196608, 67, 0, -196607, 116, 0, -65539, 60, 0, -131072, 83, 0, -3, 60, 0, -65536, 83, 0, 65533, 60, 0, 65535, 99, 0, 0, 82, 0, 131069, 88, 0, 131070, 105, 0, 131071, 146, 0 )
+
+[node name="roof" type="TileMap" parent="."]
+position = Vector2( -27.3115, 178.769 )
+tile_set = ExtResource( 1 )
+format = 1
+tile_data = PoolIntArray( -458754, 103, 0, -393220, 103, 0, -458752, 233, 0, -327686, 103, 0, -327682, 233, 0, -393214, 233, 0, -393211, 100, 0, -262152, 97, 0, -262149, 233, 0, -262148, 102, 0, -327680, 233, 0, -327677, 108, 0, -196618, 78, 0, -196614, 97, 0, -196610, 233, 0, -262143, 100, 0, -131080, 78, 0, -131079, 17, 0, -131076, 96, 0, -131073, 96, 0 )
