@@ -454,20 +454,21 @@ start_node = "idle"
 [sub_resource type="AnimationNodeStateMachinePlayback" id=38]
 
 [node name="Player" type="KinematicBody2D"]
-position = Vector2( -0.383728, 0 )
+position = Vector2( -1.64508, 2.94314 )
 script = ExtResource( 89 )
 max_speed = 200.0
 acceleration = 300.0
 friction = 600.0
 
 [node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 4.48064, -128.658 )
 texture = ExtResource( 2 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2( -8.13553, 180.961 )
+position = Vector2( -5.48972, 54.4562 )
 rotation = 1.49911
 scale = Vector2( 1, 1.0017 )
-polygon = PoolVector2Array( -3.59201, -3.786, 0.856781, 14.5816, 17.7483, 20.4007, 29.5945, -5.24709, 19.9274, -31.2851, -1.53299, -27.0633 )
+polygon = PoolVector2Array( -16.07, 0.976639, -1.48778, 18.4993, 16.0061, 18.0046, 28.4082, -3.46005, 28.267, -22.2165, 22.2771, -34.2508, 10.5008, -36.2853, -5.84341, -29.8514, -16.1536, -15.4412 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/idle_0 = SubResource( 1 )

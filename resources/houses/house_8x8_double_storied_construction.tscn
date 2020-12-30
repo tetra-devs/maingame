@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://resources/rooms/rooms.tres" type="TileSet" id=1]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="BaseLayer" type="TileMap" parent="."]
+position = Vector2( 1.81818, 2.83215 )
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -262148, 119, 0, -262147, 119, 0, -262146, 119, 0, -262145, 235, 0, -196612, 119, 0, -196611, 119, 0, -196610, 119, 0, -196609, 235, 0, -131076, 119, 0, -131075, 119, 0, -131074, 119, 0, -131073, 235, 0, -65540, 119, 0, -65539, 119, 0, -65538, 119, 0, -65537, 235, 0 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -379.892, 69.7166, 131.951, 323.393, 643.794, 67.4717, 643.794, 49.5122, 131.951, -210.899, -382.137, 45.0223 )
+
+[node name="Walls" type="TileMap" parent="."]
+position = Vector2( 2.43341, -19.1923 )
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -327683, 181, 0, -262148, 158, 0, -262146, 230, 0, -262145, 159, 0, -196612, 128, 0, -196611, 271, 0, -196609, 231, 0, -131076, 128, 0, -131075, 242, 0, -131073, 231, 0, -196608, 176, 0, -65540, 156, 0, -65539, 133, 0, -65537, 231, 0, -2, 230, 0, -1, 230, 0 )
+
+[node name="Roof" type="TileMap" parent="."]
+position = Vector2( 2.24487, -42.6535 )
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -327685, 79, 0, -327684, 88, 0, -327683, 234, 0, -327682, 77, 0, -262149, 88, 0, -262148, 235, 0, -262147, 234, 0, -262146, 232, 0, -196613, 88, 0, -196612, 235, 0, -196611, 234, 0, -196610, 232, 0, -131077, 78, 0, -131076, 235, 0, -131075, 234, 0, -131074, 76, 0 )
+
+[node name="First_Floor_Wall" type="TileMap" parent="."]
+position = Vector2( -4.48993, -47.1434 )
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -393220, 129, 0, -393219, 129, 0, -327685, 158, 0, -327682, 159, 0, -262150, 131, 0, -262148, 3, 0, -262146, 147, 0, -196614, 131, 0, -196612, 4, 0, -196611, 8, 0, -196610, 131, 0, -131077, 156, 0, -131076, 129, 0, -131075, 129, 0, -131074, 147, 0 )
+
+[node name="First_floor_Roof" type="TileMap" parent="."]
+position = Vector2( -2.24493, 42.6536 )
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -458759, 46, 0, -458758, 46, 0, -458757, 46, 0, -458756, 46, 0, -393223, 46, 0, -393222, 46, 0, -393221, 46, 0, -393220, 46, 0, -327687, 46, 0, -327686, 46, 0, -327685, 46, 0, -327684, 51, 0, -262151, 46, 0, -262150, 46, 0, -262149, 46, 0, -262148, 51, 0 )
