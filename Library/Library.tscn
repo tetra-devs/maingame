@@ -1,6 +1,6 @@
 [gd_scene load_steps=18 format=2]
 
-[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Player_s.tscn" type="PackedScene" id=1]
 [ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=2]
 [ext_resource path="res://Library/table.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Library/Table_t2.tscn" type="PackedScene" id=4]
@@ -17,6 +17,7 @@
 [ext_resource path="res://Library/bookShelf10.tscn" type="PackedScene" id=15]
 [ext_resource path="res://Library/stable.tscn" type="PackedScene" id=16]
 [ext_resource path="res://Library/schair.tscn" type="PackedScene" id=17]
+
 
 [node name="Library" type="Node"]
 

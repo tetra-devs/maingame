@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=1]
-[ext_resource path="res://Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Player_s.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Room_small/Wallw.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Room_small/Wall1.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Library/table.tscn" type="PackedScene" id=5]
 
 [node name="Node2D" type="Node2D"]
 
@@ -13,11 +14,6 @@ tile_set = ExtResource( 1 )
 cell_size = Vector2( 256, 128 )
 format = 1
 tile_data = PoolIntArray( -131075, 48, 0, -131074, 48, 0, -131073, 50, 0, -196608, 164, 0, -65539, 164, 0, -65538, 164, 0, -65537, 49, 0, -131072, 164, 0, -3, 50, 0, -2, 164, 0, -1, 164, 0, -65536, 164, 0, 65533, 44, 0, 65534, 164, 0, 65535, 164, 0, 0, 164, 0 )
-
-[node name="Area2D" type="Area2D" parent="."]
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
-polygon = PoolVector2Array( -161.351, 188.628, -59.7883, 135.174, 0.792847, 167.246, -97.2061, 222.482 )
 
 [node name="wallE3" parent="." instance=ExtResource( 4 )]
 position = Vector2( -64.813, -112.457 )
@@ -33,6 +29,9 @@ position = Vector2( -254.864, -18.8707 )
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
 position = Vector2( 393.486, 84.6465 )
+
+[node name="StaticBody2D" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( 49.6164, 65.2001 )
 
 [node name="wallw3" parent="." instance=ExtResource( 3 )]
 position = Vector2( 319.187, 75.8136 )

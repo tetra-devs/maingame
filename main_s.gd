@@ -1,8 +1,9 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://resources/tilesets/library_tables.tres" type="TileSet" id=1]
-[ext_resource path="res://Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Player_s.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Library/chair.tscn" type="PackedScene" id=3]
+
 
 
 [node name="World" type="Node2D"]
