@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=1]
+[ext_resource path="res://Player_s.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Room_small/Wallw.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Room_small/Wall1.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Library/table.tscn" type="PackedScene" id=5]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Floor" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -131075, 48, 0, -131074, 48, 0, -131073, 50, 0, -196608, 164, 0, -65539, 164, 0, -65538, 164, 0, -65537, 49, 0, -131072, 164, 0, -3, 50, 0, -2, 164, 0, -1, 164, 0, -65536, 164, 0, 65533, 44, 0, 65534, 164, 0, 65535, 164, 0, 0, 164, 0 )
+
+[node name="wallE3" parent="." instance=ExtResource( 4 )]
+position = Vector2( -64.813, -112.457 )
+
+[node name="wallE2" parent="." instance=ExtResource( 4 )]
+position = Vector2( -193.835, -47.3872 )
+
+[node name="wallE" parent="." instance=ExtResource( 4 )]
+position = Vector2( -321.835, 14.8325 )
+
+[node name="YSort" type="YSort" parent="."]
+position = Vector2( -254.864, -18.8707 )
+
+[node name="Player" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 393.486, 84.6465 )
+
+[node name="StaticBody2D" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( 49.6164, 65.2001 )
+
+[node name="wallw3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 319.187, 75.8136 )
+
+[node name="wallw2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 191.187, 138.69 )
+
+[node name="wallw1" parent="." instance=ExtResource( 3 )]
+position = Vector2( 63.187, 202.072 )
