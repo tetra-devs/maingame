@@ -5,7 +5,7 @@
 [node name="StaticBody2D" type="StaticBody2D"]
 
 [node name="Base" type="TileMap" parent="."]
-position = Vector2( 6.10352e-05, 4.48975 )
+position = Vector2( -3.36377, 280.304 )
 mode = 1
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 256, 128 )
@@ -13,18 +13,21 @@ format = 1
 tile_data = PoolIntArray( -196612, 116, 0, -196611, 116, 0, -196610, 116, 0, -131076, 116, 0, -131075, 116, 0, -131074, 116, 0, -65540, 116, 0, -65539, 116, 0, -65538, 116, 0 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PoolVector2Array( -385.08, 65.2267, -5.68719, 258.29, 387.175, 67.4717, 380.44, 45.0223, 1.04761, -145.796, -380.59, 45.0223 )
+position = Vector2( -3.36377, 275.814 )
+polygon = PoolVector2Array( -385.08, 65.2267, -5.68719, 258.29, 3.29254, 267.27, 162.682, 206.657, 295.133, 141.554, 387.175, 67.4717, 380.44, 45.0223, 1.04761, -145.796, -380.59, 45.0223 )
 
 [node name="Walls" type="TileMap" parent="."]
+position = Vector2( -3.36377, 275.814 )
 mode = 1
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 256, 128 )
 format = 1
-tile_data = PoolIntArray( -262147, 165, 0, -196612, 158, 0, -196610, 159, 0, -131076, 228, 0, -131073, 228, 0, -65540, 156, 0, -65539, 225, 0, -65538, 157, 0 )
+tile_data = PoolIntArray( -262147, 165, 0, -196612, 158, 0, -196610, 159, 0, -131076, 228, 0, -131075, 241, 0, -131074, 62, 0, -131073, 228, 0, -65540, 156, 0, -65539, 225, 0, -65538, 212, 0 )
 
 [node name="roof" type="TileMap" parent="."]
+position = Vector2( -3.36377, 275.814 )
 mode = 1
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 256, 128 )
 format = 1
-tile_data = PoolIntArray( -262149, 81, 0, -262148, 119, 0, -262147, 81, 0, -196613, 119, 0, -196612, 119, 0, -196611, 119, 0, -131077, 119, 0, -131076, 81, 0, -131075, 119, 0 )
+tile_data = PoolIntArray( -262149, 50, 0, -262148, 43, 0, -262147, 50, 0, -196613, 43, 0, -196612, 49, 0, -196611, 43, 0, -131077, 50, 0, -131076, 43, 0, -131075, 50, 0 )
