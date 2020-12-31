@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=1]
+[ext_resource path="res://resources/rooms/rooms.tres" type="TileSet" id=2]
+
+[node name="Node2D" type="StaticBody2D"]
+position = Vector2( -1.12518, 1.12518 )
+
+[node name="base" type="TileMap" parent="."]
+position = Vector2( -1.12524, 169.34 )
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -131075, 166, 0, -131074, 166, 0, -65539, 166, 0, -65538, 166, 0, -3, 30, 0, -2, 50, 0 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -1.12524, 169.34 )
+polygon = PoolVector2Array( -383.677, 195.064, -383.252, 171.661, 2.87503, -20.0327, 254.354, 108.238, 254.917, 128.492, -128.371, 320.589 )
+
+[node name="wall" type="TileMap" parent="."]
+position = Vector2( -0.562592, 149.087 )
+mode = 1
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -131075, 158, 0, -131074, 212, 0, -65539, 272, 0, -65538, 219, 0, -3, 214, 0, -2, 269, 0 )
