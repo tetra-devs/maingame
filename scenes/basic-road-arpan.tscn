@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=2]
+[gd_scene load_steps=29 format=2]
 
 [ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=1]
 [ext_resource path="res://resources/characters/Player.tscn" type="PackedScene" id=2]
@@ -24,6 +24,10 @@
 [ext_resource path="res://resources/Grass/Grass_tiles.tres" type="TileSet" id=22]
 [ext_resource path="res://resources/Water_body/Water_and_grass.tres" type="TileSet" id=23]
 [ext_resource path="res://resources/Water_body/water_edited.tres" type="TileSet" id=24]
+[ext_resource path="res://resources/shops/shop_2x3.tscn" type="PackedScene" id=25]
+[ext_resource path="res://resources/shops/shop_2x2.tscn" type="PackedScene" id=26]
+[ext_resource path="res://resources/shops/shop_2x3_shed.tscn" type="PackedScene" id=27]
+[ext_resource path="res://resources/shops/shop_3x2_shed.tscn" type="PackedScene" id=28]
 
 [node name="Node2D" type="Node2D"]
 __meta__ = {
@@ -90,7 +94,7 @@ position = Vector2( -2.51147, 134.556 )
 current = true
 
 [node name="StaticBody2D" parent="YSort" instance=ExtResource( 7 )]
-position = Vector2( -8.74292, -37.895 )
+position = Vector2( 29.0266, -5.52098 )
 
 [node name="StaticBody2D9" parent="YSort" instance=ExtResource( 7 )]
 position = Vector2( -78.1184, 1464.8 )
@@ -589,3 +593,96 @@ position = Vector2( 5206.43, 3164.06 )
 
 [node name="library" parent="YSort" instance=ExtResource( 19 )]
 position = Vector2( 2663.94, -5116.96 )
+
+[node name="shop_2x3" parent="YSort" instance=ExtResource( 25 )]
+position = Vector2( 980.878, -2351.37 )
+
+[node name="shop_2x22" parent="YSort" instance=ExtResource( 25 )]
+position = Vector2( 3091, -2334.21 )
+
+[node name="shop_2x25" parent="YSort" instance=ExtResource( 25 )]
+position = Vector2( 3091, -2334.21 )
+
+[node name="shop_2x6" parent="YSort" instance=ExtResource( 25 )]
+position = Vector2( 1940.99, -2355.18 )
+
+[node name="shop_2x8" parent="YSort" instance=ExtResource( 25 )]
+position = Vector2( 3529.78, -3194.03 )
+
+[node name="shop_2x9" parent="YSort" instance=ExtResource( 25 )]
+position = Vector2( 3893.15, -3012.35 )
+
+[node name="shop_2x10" parent="YSort" instance=ExtResource( 25 )]
+position = Vector2( 5041.08, -3159.95 )
+
+[node name="shop_2x11" parent="YSort" instance=ExtResource( 25 )]
+position = Vector2( 3831.3, -3766.15 )
+
+[node name="shop_2x12" parent="YSort" instance=ExtResource( 25 )]
+position = Vector2( 5274.16, -4481.62 )
+
+[node name="shop_2x2" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 1317.66, -2511.64 )
+
+[node name="shop_2x4" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 1636.23, -2687.09 )
+
+[node name="shop_2x15" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 4724.01, -2595.17 )
+
+[node name="shop_2x16" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 2419.41, -2274.47 )
+
+[node name="shop_2x17" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 3659.97, -2296.84 )
+
+[node name="shop_2x26" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 4275.95, -2277.1 )
+
+[node name="shop_2x23" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 4546.39, -3281.48 )
+
+[node name="shop_2x24" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 5279.11, -2928.3 )
+
+[node name="shop_2x18" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 5864.33, -3940.03 )
+
+[node name="shop_2x19" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 5869.96, -4338.12 )
+
+[node name="shop_2x20" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 5822.27, -3677.22 )
+
+[node name="shop_2x21" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 5916.78, -3130.58 )
+
+[node name="shop_2x5" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 2544.25, -3109.5 )
+
+[node name="shop_2x13" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 4598.38, -4117.26 )
+
+[node name="shop_2x14" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 4872.27, -4268.24 )
+
+[node name="shop_2x7" parent="YSort" instance=ExtResource( 26 )]
+position = Vector2( 2919.23, -3302.79 )
+
+[node name="Node2D" parent="YSort" instance=ExtResource( 27 )]
+position = Vector2( 2186.85, -2932.92 )
+
+[node name="Node2D2" parent="YSort" instance=ExtResource( 27 )]
+position = Vector2( 4270.44, -3980.52 )
+
+[node name="shop_3x2" parent="YSort" instance=ExtResource( 28 )]
+position = Vector2( 5709.27, -4656.03 )
+
+[node name="shop_3x4" parent="YSort" instance=ExtResource( 28 )]
+position = Vector2( 4055.25, -3527.65 )
+
+[node name="shop_3x5" parent="YSort" instance=ExtResource( 28 )]
+position = Vector2( 5733.11, -3445.56 )
+
+[node name="shop_3x3" parent="YSort" instance=ExtResource( 28 )]
+position = Vector2( 4245.65, -2831.28 )
