@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=2]
+[gd_scene load_steps=31 format=2]
 
 [ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=1]
 [ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallE.tscn" type="PackedScene" id=2]
@@ -28,6 +28,8 @@
 [ext_resource path="res://Library/crate.tscn" type="PackedScene" id=26]
 [ext_resource path="res://Library/bookShelf8.tscn" type="PackedScene" id=27]
 [ext_resource path="res://Library/empty_table.tscn" type="PackedScene" id=28]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/doorS.tscn" type="PackedScene" id=29]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/doorW.tscn" type="PackedScene" id=30]
 
 [node name="Node2D" type="Node2D"]
 
@@ -189,9 +191,6 @@ position = Vector2( 336, 1336 )
 [node name="wallw12" parent="YSort/wallS" instance=ExtResource( 4 )]
 position = Vector2( 208, 1400 )
 
-[node name="wallw13" parent="YSort/wallS" instance=ExtResource( 4 )]
-position = Vector2( 80, 1464 )
-
 [node name="wallw14" parent="YSort/wallS" instance=ExtResource( 4 )]
 position = Vector2( -48, 1528 )
 
@@ -209,9 +208,6 @@ position = Vector2( -1616, 1096 )
 
 [node name="walls4" parent="YSort/wallS" instance=ExtResource( 5 )]
 position = Vector2( -1488, 1160 )
-
-[node name="walls5" parent="YSort/wallS" instance=ExtResource( 5 )]
-position = Vector2( -1360, 1224 )
 
 [node name="walls6" parent="YSort/wallS" instance=ExtResource( 5 )]
 position = Vector2( -1232, 1288 )
@@ -622,3 +618,11 @@ position = Vector2( -1715.27, 773.534 )
 
 [node name="StaticBody2D3" parent="YSort/crate" instance=ExtResource( 26 )]
 position = Vector2( -1754.47, 793.537 )
+
+[node name="Door" type="YSort" parent="YSort"]
+
+[node name="StaticBody2D" parent="YSort/Door" instance=ExtResource( 30 )]
+position = Vector2( 80, 1464 )
+
+[node name="StaticBody2D2" parent="YSort/Door" instance=ExtResource( 29 )]
+position = Vector2( -1360, 1224 )
