@@ -5,8 +5,9 @@
 [node name="Bookself1" type="StaticBody2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 2.80615, -55.0006 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2( -22.3065, 9.67726 )
+position = Vector2( -19.5004, -45.3234 )
 polygon = PoolVector2Array( 2.61349, 183.34, 20.2723, 192.169, 43.1868, 181.238, 23.2155, 168.414, 2.40327, 175.982 )

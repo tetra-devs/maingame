@@ -461,11 +461,11 @@ acceleration = 300.0
 friction = 600.0
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 4.48064, -128.658 )
+position = Vector2( 1.3625, -74.3132 )
 texture = ExtResource( 2 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2( -5.48972, 54.4562 )
+position = Vector2( -8.60785, 108.801 )
 rotation = 1.49911
 scale = Vector2( 1, 1.0017 )
 polygon = PoolVector2Array( -16.07, 0.976639, -1.48778, 18.4993, 16.0061, 18.0046, 28.4082, -3.46005, 28.267, -22.2165, 22.2771, -34.2508, 10.5008, -36.2853, -5.84341, -29.8514, -16.1536, -15.4412 )

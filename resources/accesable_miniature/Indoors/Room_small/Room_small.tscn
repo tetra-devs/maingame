@@ -1,0 +1,60 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=1]
+[ext_resource path="res://resources/characters/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/Wallw.tscn" type="PackedScene" id=3]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallE.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Library/table.tscn" type="PackedScene" id=5]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallS.tscn" type="PackedScene" id=6]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallN.tscn" type="PackedScene" id=7]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Floor" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -131075, 48, 0, -131074, 48, 0, -131073, 50, 0, -196608, 164, 0, -65539, 164, 0, -65538, 164, 0, -65537, 49, 0, -131072, 164, 0, -3, 50, 0, -2, 164, 0, -1, 164, 0, -65536, 164, 0, 65533, 44, 0, 65534, 164, 0, 65535, 164, 0, 0, 164, 0 )
+
+[node name="YSort" type="YSort" parent="."]
+position = Vector2( -254.864, -18.8707 )
+
+[node name="Player" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 380.236, -106.835 )
+
+[node name="Camera2D" type="Camera2D" parent="YSort/Player"]
+current = true
+
+[node name="wallE2" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 84.9675, -27.8865 )
+
+[node name="wallE" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -43.6625, 36.853 )
+
+[node name="wallE3" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 213.99, -93.5863 )
+
+[node name="wallw2" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 512.647, 236.048 )
+
+[node name="wallw1" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 384.647, 298.241 )
+
+[node name="wallw3" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 641.836, 171.983 )
+
+[node name="Table" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( 229.187, -41.8285 )
+
+[node name="walln" parent="YSort" instance=ExtResource( 6 )]
+position = Vector2( 325.13, -56.9425 )
+
+[node name="walln1" parent="YSort" instance=ExtResource( 6 )]
+position = Vector2( 452.899, 7.35791 )
+
+[node name="WALLN" parent="YSort" instance=ExtResource( 7 )]
+position = Vector2( -79.6769, 187.895 )
+
+[node name="WALLN2" parent="YSort" instance=ExtResource( 7 )]
+position = Vector2( 48.7575, 252.112 )
