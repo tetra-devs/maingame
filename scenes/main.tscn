@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=2]
+[gd_scene load_steps=37 format=2]
 
 [ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=1]
 [ext_resource path="res://resources/characters/Player.tscn" type="PackedScene" id=2]
@@ -35,6 +35,7 @@
 [ext_resource path="res://resources/carts/cart1.tscn" type="PackedScene" id=33]
 [ext_resource path="res://resources/tilesets/trees.tres" type="TileSet" id=34]
 [ext_resource path="res://resources/carts/cart2.tscn" type="PackedScene" id=35]
+[ext_resource path="res://resources/school/platform.tscn" type="PackedScene" id=36]
 
 [node name="Node2D" type="Node2D"]
 __meta__ = {
@@ -853,3 +854,15 @@ position = Vector2( 5499.02, -2103.67 )
 
 [node name="cart3" parent="YSort" instance=ExtResource( 35 )]
 position = Vector2( 5852.02, -2110.87 )
+
+[node name="school" parent="YSort" instance=ExtResource( 36 )]
+position = Vector2( 2508.74, -6931.44 )
+
+[node name="school2" parent="YSort" instance=ExtResource( 36 )]
+position = Vector2( 3837.45, -5672.7 )
+
+[node name="school4" parent="YSort" instance=ExtResource( 36 )]
+position = Vector2( 4650.82, -5241.6 )
+
+[node name="school3" parent="YSort" instance=ExtResource( 36 )]
+position = Vector2( 3388.58, -6526.62 )
