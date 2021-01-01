@@ -91,7 +91,7 @@ format = 1
 position = Vector2( -3240.82, 3317.4 )
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
-position = Vector2( 3847.47, 4055.18 )
+position = Vector2( -1791.12, -4552.47 )
 
 [node name="Camera2D" type="Camera2D" parent="YSort/Player"]
 position = Vector2( -2.51147, 134.556 )

@@ -43,7 +43,7 @@ tile_data = PoolIntArray( -131075, 536871076, 0, -131074, 536871076, 0, -131073,
 [node name="YSort" type="YSort" parent="."]
 
 [node name="Player" parent="YSort" instance=ExtResource( 10 )]
-position = Vector2( -79.8126, 288.715 )
+position = Vector2( -125.017, 1400.63 )
 
 [node name="Camera2D" type="Camera2D" parent="YSort/Player"]
 current = true
