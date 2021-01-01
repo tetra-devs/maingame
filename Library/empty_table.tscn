@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://assets/kenneyDungeonPack_2/Isometric/tableRoundChairs_E.png" type="Texture" id=1]
+[ext_resource path="res://assets/kenneyDungeonPack_2/Isometric/tableRound_E.png" type="Texture" id=1]
 
 [node name="StaticBody2D" type="StaticBody2D"]
 collision_mask = 2
@@ -11,4 +11,4 @@ texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 position = Vector2( 0, -48.827 )
-polygon = PoolVector2Array( -47.8729, 196.601, -22.0368, 211.746, 17.1628, 215.31, 43.8897, 209.074, 54.5805, 183.238, 37.6534, 163.638, 3.79926, 155.62, -36.2912, 157.402, -51.4365, 179.674 )
+polygon = PoolVector2Array( -30.4357, 194.011, 1.2738, 206.919, 32.7027, 195.695, 38.315, 183.909, 37.6534, 163.638, 3.79926, 155.62, -33.5225, 160.618, -35.7674, 182.225 )
