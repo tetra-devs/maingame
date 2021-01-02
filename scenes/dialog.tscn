@@ -1,0 +1,99 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/dialogue_system/next-indicator.png" type="Texture" id=1]
+[ext_resource path="res://resources/script/dialog.gd" type="Script" id=2]
+[ext_resource path="res://scenes/DialogueLoader.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/dialogue_system/dialog-background.png" type="Texture" id=4]
+
+[node name="DialogueSystem" type="Control"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -512.0
+margin_top = -600.0
+margin_right = 512.0
+margin_bottom = 0.000427246
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+dialogue_file_path = "res://resources/dialogue/first.json"
+
+[node name="DialogBox" type="Control" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -20.0
+margin_top = -40.0001
+margin_right = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="box" type="TextureRect" parent="DialogBox"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -236.0
+margin_top = -152.0
+margin_right = 236.0
+margin_bottom = -24.0004
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dialogue" type="Label" parent="DialogBox/box"]
+anchor_left = -1.05932
+anchor_top = -3.05
+anchor_right = -1.02542
+anchor_bottom = -3.05
+margin_left = 600.0
+margin_top = 446.4
+margin_right = 640.0
+margin_bottom = 460.4
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Dialogue"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="speaker" type="Label" parent="DialogBox/box"]
+anchor_left = -1.17797
+anchor_top = -3.05
+anchor_right = -1.15678
+anchor_bottom = -3.05
+margin_left = 600.0
+margin_top = 446.4
+margin_right = 640.0
+margin_bottom = 460.4
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Speaker"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Button" type="Button" parent="DialogBox/box"]
+margin_left = 408.0
+margin_top = 88.0
+margin_right = 440.0
+margin_bottom = 116.0
+icon = ExtResource( 1 )
+flat = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="DialogueLoader" parent="." instance=ExtResource( 3 )]
+[connection signal="button_down" from="DialogBox/box/Button" to="." method="_on_Button_button_down"]
