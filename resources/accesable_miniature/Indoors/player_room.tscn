@@ -1,0 +1,146 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Library/barrel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Library/crate.tscn" type="PackedScene" id=2]
+[ext_resource path="res://resources/characters/Player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=4]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/CornerS.tscn" type="PackedScene" id=5]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/Wallw.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Library/barrelcrate.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Library/schair.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Library/stable.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Library/bookShelf1.tscn" type="PackedScene" id=10]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallN.tscn" type="PackedScene" id=11]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/CornerE.tscn" type="PackedScene" id=12]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallS.tscn" type="PackedScene" id=13]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/CornerW.tscn" type="PackedScene" id=14]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallE.tscn" type="PackedScene" id=15]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/CornerN.tscn" type="PackedScene" id=16]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="floor" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 4 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -131075, 47, 0, -131074, 165, 0, -131073, 165, 0, -196608, 165, 0, -196607, 165, 0, -196606, 165, 0, -65539, 165, 0, -65538, 49, 0, -65537, 165, 0, -131072, 165, 0, -131071, 165, 0, -131070, 165, 0, -3, 165, 0, -2, 165, 0, -1, 165, 0, -65536, 49, 0, -65535, 165, 0, -65534, 165, 0, 65533, 165, 0, 65534, 165, 0, 65535, 50, 0, 0, 165, 0, 1, 165, 0, 2, 165, 0, 131069, 165, 0, 131070, 165, 0, 131071, 165, 0, 65536, 165, 0, 65537, 165, 0, 65538, 165, 0, 196605, 165, 0, 196606, 165, 0, 196607, 165, 0, 131072, 165, 0, 131073, 165, 0, 131074, 165, 0 )
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="Player" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 24, 232 )
+
+[node name="Camera2D" type="Camera2D" parent="YSort/Player"]
+current = true
+
+[node name="corner" type="YSort" parent="YSort"]
+
+[node name="StaticBody2D" parent="YSort/corner" instance=ExtResource( 12 )]
+position = Vector2( -648, 256 )
+
+[node name="StaticBody2D2" parent="YSort/corner" instance=ExtResource( 16 )]
+position = Vector2( 0, 528 )
+
+[node name="StaticBody2D3" parent="YSort/corner" instance=ExtResource( 5 )]
+position = Vector2( 0.0630493, -123.175 )
+
+[node name="StaticBody2D4" parent="YSort/corner" instance=ExtResource( 14 )]
+position = Vector2( 640, 192 )
+
+[node name="walls" type="YSort" parent="YSort"]
+
+[node name="StaticBody2D" parent="YSort/walls" instance=ExtResource( 15 )]
+position = Vector2( -144, -64 )
+
+[node name="StaticBody2D2" parent="YSort/walls" instance=ExtResource( 15 )]
+position = Vector2( -272, 0 )
+
+[node name="StaticBody2D3" parent="YSort/walls" instance=ExtResource( 15 )]
+position = Vector2( -400, 64 )
+
+[node name="StaticBody2D4" parent="YSort/walls" instance=ExtResource( 15 )]
+position = Vector2( -528, 128 )
+
+[node name="StaticBody2D5" parent="YSort/walls" instance=ExtResource( 11 )]
+position = Vector2( -200, 520 )
+
+[node name="StaticBody2D6" parent="YSort/walls" instance=ExtResource( 11 )]
+position = Vector2( -328, 456 )
+
+[node name="StaticBody2D7" parent="YSort/walls" instance=ExtResource( 11 )]
+position = Vector2( -456, 392 )
+
+[node name="StaticBody2D8" parent="YSort/walls" instance=ExtResource( 11 )]
+position = Vector2( -584, 328 )
+
+[node name="StaticBody2D9" parent="YSort/walls" instance=ExtResource( 13 )]
+position = Vector2( 528, 144 )
+
+[node name="StaticBody2D10" parent="YSort/walls" instance=ExtResource( 13 )]
+position = Vector2( 400, 80 )
+
+[node name="StaticBody2D11" parent="YSort/walls" instance=ExtResource( 13 )]
+position = Vector2( 272, 16 )
+
+[node name="StaticBody2D12" parent="YSort/walls" instance=ExtResource( 13 )]
+position = Vector2( 144, -48 )
+
+[node name="StaticBody2D13" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( 592, 304 )
+
+[node name="StaticBody2D14" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( 464, 368 )
+
+[node name="StaticBody2D15" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( 336, 432 )
+
+[node name="StaticBody2D16" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( 208, 496 )
+
+[node name="items" type="YSort" parent="YSort"]
+
+[node name="Bookself1" parent="YSort/items" instance=ExtResource( 10 )]
+position = Vector2( -136, -40 )
+
+[node name="StaticBody2D" parent="YSort/items" instance=ExtResource( 2 )]
+position = Vector2( -232, 24 )
+
+[node name="StaticBody2D2" parent="YSort/items" instance=ExtResource( 2 )]
+position = Vector2( -272, 48 )
+
+[node name="StaticBody2D3" parent="YSort/items" instance=ExtResource( 2 )]
+position = Vector2( -216, 72 )
+
+[node name="StaticBody2D4" parent="YSort/items" instance=ExtResource( 2 )]
+position = Vector2( 96, -32 )
+
+[node name="StaticBody2D5" parent="YSort/items" instance=ExtResource( 2 )]
+position = Vector2( 440, 136 )
+
+[node name="StaticBody2D6" parent="YSort/items" instance=ExtResource( 2 )]
+position = Vector2( 384, 128 )
+
+[node name="StaticBody2D7" parent="YSort/items" instance=ExtResource( 1 )]
+position = Vector2( 280, 72 )
+
+[node name="StaticBody2D8" parent="YSort/items" instance=ExtResource( 7 )]
+position = Vector2( -320, 104 )
+
+[node name="Bookself2" parent="YSort/items" instance=ExtResource( 8 )]
+position = Vector2( 264, 200 )
+
+[node name="Bookself3" parent="YSort/items" instance=ExtResource( 9 )]
+position = Vector2( 288, 216 )
+
+[node name="Bookself4" parent="YSort/items" instance=ExtResource( 9 )]
+position = Vector2( -184, 264 )
+
+[node name="Bookself5" parent="YSort/items" instance=ExtResource( 9 )]
+position = Vector2( -152, 280 )
+
+[node name="Bookself6" parent="YSort/items" instance=ExtResource( 9 )]
+position = Vector2( -120, 296 )
+
+[node name="Bookself7" parent="YSort/items" instance=ExtResource( 9 )]
+position = Vector2( -88, 312 )

@@ -1,0 +1,233 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/CornerS.tscn" type="PackedScene" id=1]
+[ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=2]
+[ext_resource path="res://resources/tilesets/floor_carpets.tres" type="TileSet" id=3]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/Wallw.tscn" type="PackedScene" id=4]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/CornerE.tscn" type="PackedScene" id=5]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallE.tscn" type="PackedScene" id=6]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallN.tscn" type="PackedScene" id=7]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/CornerW.tscn" type="PackedScene" id=8]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/CornerN.tscn" type="PackedScene" id=9]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallS.tscn" type="PackedScene" id=10]
+[ext_resource path="res://resources/characters/Player.tscn" type="PackedScene" id=11]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="floors" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -131075, 165, 0, -131074, 165, 0, -131073, 165, 0, -196608, 165, 0, -196607, 165, 0, -196606, 165, 0, -196605, 165, 0, -196604, 165, 0, -196603, 165, 0, -196602, 51, 0, -196601, 50, 0, -196600, 165, 0, -65539, 165, 0, -65538, 49, 0, -65537, 51, 0, -131072, 165, 0, -131071, 165, 0, -131070, 165, 0, -131069, 167, 0, -131068, 167, 0, -131067, 164, 0, -131066, 167, 0, -131065, 165, 0, -131064, 165, 0, -3, 165, 0, -2, 165, 0, -1, 165, 0, -65536, 166, 0, -65535, 166, 0, -65534, 165, 0, -65533, 165, 0, -65532, 165, 0, -65531, 167, 0, -65530, 164, 0, -65529, 167, 0, -65528, 167, 0, 65533, 164, 0, 65534, 165, 0, 65535, 166, 0, 0, 164, 0, 1, 165, 0, 2, 166, 0, 3, 49, 0, 4, 165, 0, 5, 165, 0, 6, 165, 0, 7, 22, 0, 8, 167, 0, 131069, 165, 0, 131070, 165, 0, 131071, 166, 0, 65536, 164, 0, 65537, 165, 0, 65538, 166, 0, 65539, 165, 0, 65540, 165, 0, 65541, 166, 0, 65542, 166, 0, 65543, 49, 0, 65544, 167, 0, 196605, 165, 0, 196606, 164, 0, 196607, 165, 0, 131072, 167, 0, 131073, 165, 0, 131074, 165, 0, 131075, 165, 0, 131076, 165, 0, 131077, 166, 0, 131078, 165, 0, 131079, 165, 0, 131080, 167, 0, 262141, 165, 0, 262142, 165, 0, 262143, 165, 0, 196608, 50, 0, 196609, 166, 0, 196610, 165, 0, 196611, 165, 0, 196612, 165, 0, 196613, 165, 0, 196614, 165, 0, 196615, 165, 0, 196616, 165, 0, 327677, 165, 0, 327678, 165, 0, 327679, 165, 0, 262144, 167, 0, 262145, 165, 0, 262146, 166, 0, 262147, 165, 0, 262148, 165, 0, 262149, 49, 0, 262150, 49, 0, 262151, 165, 0, 262152, 165, 0, 393213, 164, 0, 393214, 165, 0, 393215, 165, 0, 327680, 167, 0, 327681, 167, 0, 327682, 167, 0, 327683, 166, 0, 327684, 165, 0, 327685, 165, 0, 327686, 165, 0, 327687, 165, 0, 327688, 165, 0, 458749, 164, 0, 458750, 165, 0, 458751, 165, 0, 393216, 167, 0, 393217, 165, 0, 393218, 20, 0, 393219, 167, 0, 393220, 166, 0, 393221, 165, 0, 393222, 165, 0, 393223, 165, 0, 393224, 165, 0, 524285, 165, 0, 524286, 50, 0, 524287, 50, 0, 458752, 165, 0, 458753, 165, 0, 458754, 50, 0, 458755, 165, 0, 458756, 165, 0, 458757, 165, 0, 458758, 165, 0, 458759, 165, 0, 458760, 165, 0, 589821, 165, 0, 589822, 165, 0, 589823, 49, 0, 524288, 165, 0, 524289, 165, 0, 524290, 165, 0, 524291, 165, 0, 524292, 165, 0, 524293, 165, 0, 524294, 165, 0, 524295, 47, 0, 524296, 165, 0 )
+
+[node name="carpet" type="TileMap" parent="floors"]
+mode = 1
+tile_set = ExtResource( 3 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -65537, 1, 0, -131072, 10, 0, -131071, 10, 0, -131070, 10, 0, -131069, 10, 0, -131068, 10, 0, -131067, 2, 0, -131066, 0, 0, -2, 0, 0, -65530, 8, 0, 65534, 11, 0, 6, 8, 0, 131070, 11, 0, 65537, 5, 0, 65538, 4, 0, 65542, 8, 0, 196606, 11, 0, 131073, 7, 0, 131074, 5, 0, 131078, 8, 0, 262142, 11, 0, 196614, 8, 0, 327678, 11, 0, 262150, 8, 0, 393214, 3, 0, 327686, 3, 0, 458750, 1, 0, 458751, 10, 0, 393216, 10, 0, 393217, 10, 0, 393218, 10, 0, 393219, 10, 0, 393220, 10, 0, 393221, 10, 0, 393222, 2, 0 )
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="Player" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( 1.71857, 510.845 )
+
+[node name="Camera2D" type="Camera2D" parent="YSort/Player"]
+current = true
+
+[node name="corners" type="YSort" parent="YSort"]
+
+[node name="StaticBody2D" parent="YSort/corners" instance=ExtResource( 5 )]
+position = Vector2( -1416.75, 640.749 )
+
+[node name="StaticBody2D7" parent="YSort/corners" instance=ExtResource( 5 )]
+position = Vector2( -600, 568 )
+
+[node name="StaticBody2D2" parent="YSort/corners" instance=ExtResource( 9 )]
+position = Vector2( 0, 1296 )
+
+[node name="StaticBody2D6" parent="YSort/corners" instance=ExtResource( 9 )]
+position = Vector2( 0, 808 )
+
+[node name="StaticBody2D3" parent="YSort/corners" instance=ExtResource( 1 )]
+position = Vector2( 0.471939, -123.304 )
+
+[node name="StaticBody2D5" parent="YSort/corners" instance=ExtResource( 1 )]
+position = Vector2( 0, 208 )
+
+[node name="StaticBody2D4" parent="YSort/corners" instance=ExtResource( 8 )]
+position = Vector2( 1408, 579.232 )
+
+[node name="StaticBody2D8" parent="YSort/corners" instance=ExtResource( 8 )]
+position = Vector2( 584, 496 )
+
+[node name="walls" type="YSort" parent="YSort"]
+
+[node name="StaticBody2D" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -144, -64 )
+
+[node name="StaticBody2D56" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( 95.621, 72.8195 )
+
+[node name="StaticBody2D2" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -272, 0 )
+
+[node name="StaticBody2D3" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -400, 64 )
+
+[node name="StaticBody2D4" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -656, 192 )
+
+[node name="StaticBody2D6" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -784, 256 )
+
+[node name="StaticBody2D7" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -912, 320 )
+
+[node name="StaticBody2D8" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -1040, 384 )
+
+[node name="StaticBody2D9" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -1168, 448 )
+
+[node name="StaticBody2D10" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -1296, 512 )
+
+[node name="StaticBody2D5" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -528, 128 )
+
+[node name="StaticBody2D42" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -486.007, 445.339 )
+
+[node name="StaticBody2D43" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -256.658, 325.33 )
+
+[node name="StaticBody2D44" parent="YSort/walls" instance=ExtResource( 6 )]
+position = Vector2( -136, 264 )
+
+[node name="StaticBody2D11" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -1352, 712 )
+
+[node name="StaticBody2D12" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -1224, 776 )
+
+[node name="StaticBody2D13" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -1096, 840 )
+
+[node name="StaticBody2D14" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -968, 904 )
+
+[node name="StaticBody2D45" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -536, 632 )
+
+[node name="StaticBody2D46" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -426.255, 685.682 )
+
+[node name="StaticBody2D47" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -184.92, 806.35 )
+
+[node name="StaticBody2D15" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -840, 968 )
+
+[node name="StaticBody2D16" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -712, 1032 )
+
+[node name="StaticBody2D17" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -584, 1096 )
+
+[node name="StaticBody2D18" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -456, 1160 )
+
+[node name="StaticBody2D19" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -328, 1224 )
+
+[node name="StaticBody2D20" parent="YSort/walls" instance=ExtResource( 7 )]
+position = Vector2( -200, 1288 )
+
+[node name="StaticBody2D21" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 144, -48 )
+
+[node name="StaticBody2D54" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( -208, 32 )
+
+[node name="StaticBody2D55" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( -80, 96 )
+
+[node name="StaticBody2D22" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 272, 16 )
+
+[node name="StaticBody2D23" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 400, 80 )
+
+[node name="StaticBody2D51" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 132.214, 280.143 )
+
+[node name="StaticBody2D52" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 354.663, 389.612 )
+
+[node name="StaticBody2D53" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 472, 448 )
+
+[node name="StaticBody2D24" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 528, 144 )
+
+[node name="StaticBody2D25" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 656, 208 )
+
+[node name="StaticBody2D26" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 784, 272 )
+
+[node name="StaticBody2D27" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 912, 336 )
+
+[node name="StaticBody2D28" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 1040, 400 )
+
+[node name="StaticBody2D29" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 1168, 464 )
+
+[node name="StaticBody2D30" parent="YSort/walls" instance=ExtResource( 10 )]
+position = Vector2( 1296, 528 )
+
+[node name="StaticBody2D31" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 1360, 696 )
+
+[node name="StaticBody2D32" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 1232, 760 )
+
+[node name="StaticBody2D33" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 1104, 824 )
+
+[node name="StaticBody2D34" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 976, 888 )
+
+[node name="StaticBody2D35" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 848, 952 )
+
+[node name="StaticBody2D36" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 720, 1016 )
+
+[node name="StaticBody2D37" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 592, 1080 )
+
+[node name="StaticBody2D48" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 208, 784 )
+
+[node name="StaticBody2D49" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 321.317, 726.674 )
+
+[node name="StaticBody2D50" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 550.142, 602.343 )
+
+[node name="StaticBody2D38" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 464, 1144 )
+
+[node name="StaticBody2D39" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 336, 1208 )
+
+[node name="StaticBody2D40" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 208, 1272 )
+
+[node name="StaticBody2D41" parent="YSort/walls" instance=ExtResource( 4 )]
+position = Vector2( 208, 1272 )
