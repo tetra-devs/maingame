@@ -36,8 +36,8 @@
 [ext_resource path="res://resources/tilesets/trees.tres" type="TileSet" id=34]
 [ext_resource path="res://resources/carts/cart2.tscn" type="PackedScene" id=35]
 [ext_resource path="res://resources/school/platform.tscn" type="PackedScene" id=36]
-[ext_resource path="res://resources/speaking characters/group 1.tscn" type="PackedScene" id=37]
-[ext_resource path="res://resources/speaking characters/group 2.tscn" type="PackedScene" id=38]
+[ext_resource path="res://resources/speaking_characters/group 1.tscn" type="PackedScene" id=37]
+[ext_resource path="res://resources/speaking_characters/group 2.tscn" type="PackedScene" id=38]
 
 [node name="Node2D" type="Node2D"]
 __meta__ = {
