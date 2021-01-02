@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=2]
+[gd_scene load_steps=41 format=2]
 
 [ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=1]
 [ext_resource path="res://resources/characters/Player.tscn" type="PackedScene" id=2]
@@ -38,8 +38,11 @@
 [ext_resource path="res://resources/school/platform.tscn" type="PackedScene" id=36]
 [ext_resource path="res://resources/speaking_characters/group 1.tscn" type="PackedScene" id=37]
 [ext_resource path="res://resources/speaking_characters/group 2.tscn" type="PackedScene" id=38]
+[ext_resource path="res://scenes/dialog.tscn" type="PackedScene" id=39]
+[ext_resource path="res://scenes/main.gd" type="Script" id=40]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource( 40 )
 __meta__ = {
 "_edit_horizontal_guides_": [  ]
 }
@@ -104,11 +107,18 @@ format = 1
 position = Vector2( -3240.82, 3317.4 )
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
-position = Vector2( -1791.12, -4552.47 )
+position = Vector2( 3546.7, -1768.75 )
 
 [node name="Camera2D" type="Camera2D" parent="YSort/Player"]
 position = Vector2( -2.51147, 134.556 )
 current = true
+zoom = Vector2( 1.6, 1.6 )
+
+[node name="DialogueSystem" parent="YSort/Player" instance=ExtResource( 39 )]
+margin_left = -817.882
+margin_top = -2148.65
+margin_right = 206.118
+margin_bottom = -1548.65
 
 [node name="StaticBody2D" parent="YSort" instance=ExtResource( 7 )]
 position = Vector2( 29.0266, -5.52098 )
@@ -161,7 +171,7 @@ position = Vector2( 14969.1, -1953.24 )
 [node name="StaticBody2D114" parent="YSort" instance=ExtResource( 7 )]
 position = Vector2( 18671.9, -525.377 )
 
-[node name="StaticBody2D80" parent="YSort" instance=ExtResource( 7 )]
+[node name="Players_home" parent="YSort" instance=ExtResource( 7 )]
 position = Vector2( 9900.56, 2261.78 )
 
 [node name="StaticBody2D161" parent="YSort" instance=ExtResource( 7 )]
@@ -645,7 +655,7 @@ position = Vector2( -5252.94, -2276.04 )
 position = Vector2( 8497.52, 3539.27 )
 
 [node name="StaticBody2D99" parent="YSort" instance=ExtResource( 14 )]
-position = Vector2( 11382.2, 3271.72 )
+position = Vector2( 11497.6, 3485.98 )
 
 [node name="StaticBody2D100" parent="YSort" instance=ExtResource( 14 )]
 position = Vector2( 13559, 2443.65 )
@@ -866,25 +876,26 @@ position = Vector2( 3837.45, -5672.7 )
 [node name="school4" parent="YSort" instance=ExtResource( 36 )]
 position = Vector2( 4650.82, -5241.6 )
 
-[node name="school3" parent="YSort" instance=ExtResource( 36 )]
-position = Vector2( 3388.58, -6526.62 )
+[node name="YSort2" type="YSort" parent="YSort"]
+position = Vector2( 3240.82, -3317.4 )
 
-[node name="YSort2" type="YSort" parent="."]
-
-[node name="Node2D" parent="YSort2" instance=ExtResource( 37 )]
+[node name="Node2D" parent="YSort/YSort2" instance=ExtResource( 37 )]
 position = Vector2( 239.219, 1365.78 )
 
-[node name="Node2D4" parent="YSort2" instance=ExtResource( 37 )]
+[node name="Node2D4" parent="YSort/YSort2" instance=ExtResource( 37 )]
 position = Vector2( 3308.18, 4388.56 )
 
-[node name="Node2D5" parent="YSort2" instance=ExtResource( 37 )]
+[node name="Node2D5" parent="YSort/YSort2" instance=ExtResource( 37 )]
 position = Vector2( 2227.39, 4482.54 )
 
-[node name="Node2D2" parent="YSort2" instance=ExtResource( 38 )]
+[node name="Node2D2" parent="YSort/YSort2" instance=ExtResource( 38 )]
 position = Vector2( 1539.51, 1358.02 )
 
-[node name="Node2D3" parent="YSort2" instance=ExtResource( 38 )]
+[node name="Node2D3" parent="YSort/YSort2" instance=ExtResource( 38 )]
 position = Vector2( 3004.19, 628.859 )
 
-[node name="Node2D6" parent="YSort2" instance=ExtResource( 38 )]
+[node name="Node2D6" parent="YSort/YSort2" instance=ExtResource( 38 )]
 position = Vector2( 5387.8, 3297.71 )
+
+[node name="school3" parent="YSort" instance=ExtResource( 36 )]
+position = Vector2( 3388.58, -6526.62 )
