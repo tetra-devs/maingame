@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://resources/tilesets/cart.tres" type="TileSet" id=1]
+
+[node name="cart" type="StaticBody2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( 65535, 6, 0 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+visible = false
+polygon = PoolVector2Array( 80.8734, 45.6251, 196.748, 98.4505, 82.1515, 158.518, -13.7009, 191.747, -125.316, 126.567, -52.8939, 93.7643 )

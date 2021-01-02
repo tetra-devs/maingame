@@ -8,15 +8,20 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Node",
+"class": "DialogueLoader",
+"language": "GDScript",
+"path": "res://resources/script/DialogueLoader.gd"
+} ]
 _global_script_class_icons={
-
+"DialogueLoader": ""
 }
 
 [application]
 
 config/name="Productathon"
-run/main_scene="res://scenes/main.tscn"
+run/main_scene="res://Player_s.tscn"
 config/icon="res://icon.png"
 
 [rendering]
