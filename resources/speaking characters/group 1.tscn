@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://resources/tilesets/conversing_chars.tres" type="TileSet" id=1]
+
+[node name="Node2D" type="StaticBody2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -131075, 3, 0, -65539, 1, 0 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -188.179, 113.587, -24.1925, 30.4704, 47.2426, 58.7749, -111.802, 149.08 )
