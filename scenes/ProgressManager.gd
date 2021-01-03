@@ -2,9 +2,11 @@ extends Node
 
 #Make Sure there is a Persist Grp
 func save_game():
+	print("Savegame called")
 	var save_game = File.new()
 	save_game.open("user://savegame.save", File.WRITE)
 	var save_nodes = get_tree().get_nodes_in_group("Persist")
+	print(save_nodes)
 	for node in save_nodes:
 		# Check the node is an instanced scene so it can be instanced again during load.
 		if node.filename.empty():
@@ -17,13 +19,15 @@ func save_game():
 			continue
 
 		# Call the node's save func.
-		var node_data = node.call("save")
-
+		var node_data: Dictionary = node.call("save")
+		print(node)
+		print(node_data)
 		# Store the save dictionary as a new line in the save file.
 		save_game.store_line(to_json(node_data))
 	save_game.close()
 
 func load_game():
+	print("Loadgame called")
 	var save_game = File.new()
 	if not save_game.file_exists("user://savegame.save"):
 		return # Error! We don't have a save to load.
@@ -47,6 +51,7 @@ func load_game():
 		var new_object = load(node_data["filename"]).instance()
 		get_node(node_data["parent"]).add_child(new_object)
 		new_object.position = Vector2(node_data["pos_x"], node_data["pos_y"])
+		new_object.add_to_group("Persist")
 
 		# Now we set the remaining variables.
 		for i in node_data.keys():

@@ -32,6 +32,7 @@
 [ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/doorW.tscn" type="PackedScene" id=30]
 
 [node name="Node2D" type="Node2D"]
+position = Vector2( -0.804077, 0.803955 )
 
 [node name="TileMap" type="TileMap" parent="."]
 mode = 1

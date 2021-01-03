@@ -109,12 +109,7 @@ position = Vector2( -3240.82, 3317.4 )
 [node name="Player" parent="YSort" groups=[
 "Persist",
 ] instance=ExtResource( 2 )]
-position = Vector2( 3546.7, -1768.75 )
-
-[node name="Camera2D" type="Camera2D" parent="YSort/Player"]
-position = Vector2( -2.51147, 134.556 )
-current = true
-zoom = Vector2( 1.6, 1.6 )
+position = Vector2( 7908.09, -20.865 )
 
 [node name="StaticBody2D" parent="YSort" instance=ExtResource( 7 )]
 position = Vector2( 29.0266, -5.52098 )
