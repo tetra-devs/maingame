@@ -1,0 +1,22 @@
+{
+    "0" : {
+        "text": "Village ‘Purna’ is under disguised threat from foreign smugglers. Under the disguise of archeological surveys they are trying to traffic some valuable artefacts and scriptures. They have already done some, and heading towards one ultimate target.",
+        "type" : "assertive",
+        "character" : "the story"
+    },
+    "1" : {
+        "text": "They haven’t succeeded because the village is special - because it speaks one single language, which is known to none.",
+        "type": "assertive",
+        "character": "the story"
+    },
+    "2" : {
+        "text": "Being an Indian agent, you have to stop the invaders from succeeding in their mission. You had been in their team for a month, and now finally the operation begins...",
+        "type":"assertive",
+        "character":"the story"
+    },
+    "3" : {
+        "text": "‘I want the design at any cost ! Any cost...This has to be done in utmost silence and I don’t want  too many people spoiling the mission…this man knows all about their language, and almost all that has to be done, take good care of him and you have to do everything else by yourself ! Now leave…'",
+        "type":"assertive",
+        "character": "Boss"
+    }
+}

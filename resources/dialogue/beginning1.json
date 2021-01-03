@@ -1,0 +1,17 @@
+{
+    "0" : {
+        "text": "‘Listen boy…they speak the beautiful language of Sanskrit…and to succeed in what’s laying ahead, you have to learn it….you need to learn Sanskrit’",
+        "type":"assertive",
+        "character":"the old man"
+    },
+    "1" : {
+        "text": "but how ?",
+        "type":"assertive",
+        "character": "you"
+    },
+    "2" : {
+        "text": "‘The best way to learn a language is to be where it is spoken….to listen what’s spoken…but there’s some basics I’ll tell you first’",
+        "type": "assertive",
+        "character":"the old man"
+    }
+}

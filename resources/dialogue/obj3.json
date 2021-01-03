@@ -1,0 +1,17 @@
+{
+    "0" : {
+        "text": "we will also need resources from the art and science societies. Search buildings art society and science society written on it. Tap on president and say ‘I want to be a member here’.",
+        "type" : "assertive",
+        "character":"the old man"
+    },
+    "1":{
+        "text" : "ahaM atra sadaḥsyaH bhaAvitum icchaAmi",
+        "type" : "user_input",
+        "character": "you"
+    },
+    "2":{
+        "text" : "ahaM atra sadaḥsyaH bhaAvitum icchaAmi",
+        "type" : "user_input",
+        "character": "you"
+    }
+}

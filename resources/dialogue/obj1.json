@@ -1,0 +1,37 @@
+{
+    "0": {
+    "text" : "Search for a house, so that we can live inside the village and carry out operations. Search all houses available for rent, ask their prices and book the one with lowest rate.",
+    "type": "assertive",
+    "character":"the old man"
+},
+"1" : {
+    "text": "To the person in front of them ask “how much is the rate ?” And to the lowest - come back and say 'reserve this place for me'",
+    "type":"assertive",
+    "character":"the old man" 
+},
+"2": {
+    "text" : "kiyat mulayam asti ?",
+    "type" : "user_input",
+    "character" : "you" 
+},
+"3": {
+    "text" : "2000",
+    "type" : "assertive",
+    "character" : "host" 
+},
+"4": {
+    "text" : "kiyat mulayam asti ?",
+    "type" : "user_input",
+    "character" : "you" 
+},
+"5": {
+    "text" : "2700",
+    "type" : "assertive",
+    "character" : "host" 
+},
+"6" : {
+    "text" : "idaM sthAnam ahaṁ sangrakShaAmi.",
+    "type" : "assertive",
+    "character" : "user_input"
+}
+}

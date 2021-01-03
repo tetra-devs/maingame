@@ -1,0 +1,60 @@
+{
+    "7": {
+        "text" : "In sanskrit there are 2 types of vowels - with short crisp prounounciations scripted as a,e,i,o,u and another group with longer and broader pronounciation written as A,E,I,O,U. the consonants also have 2 groups - the lighter group scripted as 'ka','ga','ta','da','ba','pa','ma' etc. and a heavier group with an extra 'h'- 'kha', 'gha', 'pha', 'bha', 'tha' etc. Consonants as usual get pronounced with the help of vowels.",
+        "type": "assertive",
+        "character":"the old man"
+    },
+    "8": {
+        "text" : "there are 3 genders (lingam) : punglingam(masculine), strIlingam(feminine) and napuMsaklingam(nutre), and 3 vachanam : ekvachanam(one), dwivachanam(two), bahuvachanam(many). In sanskrit there is a root to every noun and verb called 'dhAtu'. The word used in a sentence gets transformed according to gender, number, person and tense" ,
+        "type": "assertive",
+        "character" :"the old man",
+        "new":{
+            "0":{
+                "text":"strI"
+            },
+            "1":{
+                "text":"puruSa"
+            },
+            "2":{
+                "text":"napuMsaka"
+            },
+            "3":{
+                "text":"dhAtu"
+            }
+        }
+    },
+    "9" : {
+        "text": "dhanyavādaḥ means thanks and svāgatam means welcome. 'aham asmi' means I am. to ask questions, 'kim' means what? and 'kiyat' means how much ? and 'asti' is used as an auxilliary verb 'is'. so 'kiyat sundaram asti !' means how beautiful it is ! 'idaM kim ?' means what is this?",
+        "type": "assertive",
+        "character":"the old man",
+        "new":{
+            "0": {
+                "text": "dhanyavAdaH"
+            },
+            "1": {
+                "text": "svAgatam"
+            },
+            "2": {
+                "text": "kim"
+            },
+            "3": {
+                "text": "kiyat"
+            },
+            "4": {
+                "text": "asti"
+            },
+            "5":{
+                "text":"sundaram"
+            },
+            "6":{
+                "text":"idaM"
+            },
+            "7":{
+                "text": "aham"
+            },
+            "8": {
+                "text":"asmi"
+            }
+        }
+    }
+}
