@@ -341,6 +341,7 @@ tracks/0/keys = {
 [sub_resource type="Animation" id=16]
 resource_name = "run_7"
 length = 0.9
+loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath("Sprite:texture")
 tracks/0/interp = 1

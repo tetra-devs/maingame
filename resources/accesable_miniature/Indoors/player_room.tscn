@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://Library/barrel.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Library/crate.tscn" type="PackedScene" id=2]
@@ -16,6 +16,7 @@
 [ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/CornerW.tscn" type="PackedScene" id=14]
 [ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallE.tscn" type="PackedScene" id=15]
 [ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/CornerN.tscn" type="PackedScene" id=16]
+[ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/doorW.tscn" type="PackedScene" id=17]
 
 [node name="Node2D" type="Node2D"]
 
@@ -92,9 +93,6 @@ position = Vector2( 592, 304 )
 [node name="StaticBody2D14" parent="YSort/walls" instance=ExtResource( 6 )]
 position = Vector2( 464, 368 )
 
-[node name="StaticBody2D15" parent="YSort/walls" instance=ExtResource( 6 )]
-position = Vector2( 336, 432 )
-
 [node name="StaticBody2D16" parent="YSort/walls" instance=ExtResource( 6 )]
 position = Vector2( 208, 496 )
 
@@ -140,7 +138,12 @@ position = Vector2( -184, 264 )
 position = Vector2( -152, 280 )
 
 [node name="Bookself6" parent="YSort/items" instance=ExtResource( 9 )]
-position = Vector2( -120, 296 )
+position = Vector2( -120, 232 )
 
 [node name="Bookself7" parent="YSort/items" instance=ExtResource( 9 )]
-position = Vector2( -88, 312 )
+position = Vector2( -88, 248 )
+
+[node name="doors" type="YSort" parent="YSort"]
+
+[node name="StaticBody2D" parent="YSort/doors" instance=ExtResource( 17 )]
+position = Vector2( 336, 432 )

@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://resources/rooms/rooms.tres" type="TileSet" id=1]
+[ext_resource path="res://resources/transition/transition_F_T.tscn" type="PackedScene" id=2]
+[ext_resource path="res://resources/accesable_miniature/library_17x13.gd" type="Script" id=3]
 
 [node name="StaticBody2D" type="StaticBody2D"]
+script = ExtResource( 3 )
 
 [node name="Base" type="TileMap" parent="."]
 position = Vector2( -100, -465.51 )
@@ -31,3 +34,24 @@ tile_set = ExtResource( 1 )
 cell_size = Vector2( 256, 128 )
 format = 1
 tile_data = PoolIntArray( -196612, 80, 0, -196611, 80, 0, -196610, 80, 0, -196609, 80, 0, -262144, 80, 0, -262143, 80, 0, -262142, 80, 0, -262141, 80, 0, -262140, 46, 0, -262139, 80, 0, -131076, 80, 0, -131074, 80, 0, -196608, 80, 0, -196606, 80, 0, -196605, 80, 0, -196604, 80, 0, -65540, 80, 0, -65539, 43, 0, -65538, 80, 0, -65537, 43, 0, -131072, 80, 0, -131071, 43, 0, -131070, 80, 0, -131069, 80, 0, -131068, 80, 0, -131067, 43, 0, -4, 80, 0, -3, 80, 0, -2, 80, 0, -65536, 80, 0, -65534, 80, 0, -65533, 46, 0, -65532, 80, 0, 65532, 80, 0, 65533, 43, 0, 65534, 80, 0, 65535, 43, 0, 0, 80, 0, 1, 43, 0, 2, 46, 0, 3, 80, 0, 4, 80, 0, 5, 43, 0, 131068, 80, 0, 131070, 80, 0, 65536, 80, 0, 65538, 80, 0, 65539, 80, 0, 65540, 80, 0, 196604, 80, 0, 196605, 80, 0, 196606, 80, 0, 196607, 80, 0, 131072, 46, 0, 131073, 80, 0, 131074, 80, 0, 131075, 80, 0, 131076, 80, 0, 131077, 80, 0, 262140, 80, 0, 262141, 46, 0, 262142, 80, 0, 262143, 80, 0, 196608, 80, 0, 196609, 80, 0, 196610, 80, 0, 196611, 80, 0, 196612, 46, 0, 196613, 80, 0, 327676, 80, 0, 327677, 80, 0, 327678, 80, 0, 327679, 80, 0, 262144, 80, 0, 262145, 46, 0, 262146, 46, 0, 262147, 80, 0, 262148, 80, 0, 262149, 80, 0, 393212, 80, 0, 393213, 80, 0, 393214, 80, 0, 393215, 80, 0, 327680, 80, 0, 327681, 80, 0, 327682, 80, 0, 327683, 80, 0, 327684, 80, 0, 327685, 80, 0, 458748, 80, 0, 458749, 43, 0, 458750, 80, 0, 458751, 43, 0, 393216, 80, 0, 393217, 43, 0, 393218, 80, 0, 393219, 80, 0, 393220, 80, 0, 393221, 43, 0, 524284, 80, 0, 524286, 80, 0, 458752, 80, 0, 458754, 80, 0, 458755, 46, 0, 458756, 80, 0, 589820, 80, 0, 589821, 43, 0, 589822, 80, 0, 589823, 43, 0, 524288, 80, 0, 524289, 43, 0, 524290, 80, 0, 524291, 80, 0, 524292, 80, 0, 524293, 43, 0, 655356, 80, 0, 655358, 80, 0, 589824, 80, 0, 589826, 80, 0, 589827, 46, 0, 589828, 80, 0, 720892, 80, 0, 720893, 80, 0, 720894, 80, 0, 720895, 80, 0, 655360, 46, 0, 655361, 80, 0, 655362, 80, 0, 655363, 80, 0, 655364, 46, 0, 655365, 80, 0, 786428, 80, 0, 786429, 80, 0, 786430, 43, 0, 720896, 43, 0, 720898, 43, 0, 720900, 43, 0, 851965, 80, 0, 851966, 80, 0, 851967, 80, 0, 786432, 80, 0, 786433, 80, 0, 786434, 80, 0, 786435, 80, 0, 786436, 80, 0, 786437, 80, 0 )
+
+[node name="Area2D" parent="." instance=ExtResource( 2 )]
+position = Vector2( -493.734, 1084.08 )
+
+[node name="Area2D3" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1070.87, 1292.73 )
+rotation = 1.0472
+
+[node name="Area2D2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 149.658, 761.051 )
+
+[node name="Area2D4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 909.558, 378.006 )
+
+[node name="Area2D5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1033.59, 315.71 )
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="Area2D3" to="." method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="Area2D2" to="." method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="Area2D4" to="." method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="Area2D5" to="." method="_on_Area2D_body_entered"]

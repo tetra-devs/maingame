@@ -57,7 +57,8 @@ tile_data = PoolIntArray( -196612, 47, 0, -196611, 47, 0, -196610, 47, 0, -19660
 position = Vector2( -0.0585022, 1998.98 )
 
 [node name="Area2D3" parent="." instance=ExtResource( 3 )]
-position = Vector2( -263.259, 1991.41 )
+position = Vector2( -211.964, 1946 )
+rotation = -2.09439
 
 [node name="Area2D2" parent="." instance=ExtResource( 3 )]
 position = Vector2( 129.44, 1936.75 )
