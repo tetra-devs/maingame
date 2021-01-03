@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=2]
+[gd_scene load_steps=42 format=2]
 
 [ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=1]
 [ext_resource path="res://resources/characters/Player.tscn" type="PackedScene" id=2]
@@ -40,6 +40,7 @@
 [ext_resource path="res://resources/speaking_characters/group 2.tscn" type="PackedScene" id=38]
 [ext_resource path="res://scenes/dialog.tscn" type="PackedScene" id=39]
 [ext_resource path="res://scenes/main.gd" type="Script" id=40]
+[ext_resource path="res://resources/transition/transition_F_T.tscn" type="PackedScene" id=41]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 40 )
@@ -107,7 +108,7 @@ format = 1
 position = Vector2( -3240.82, 3317.4 )
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
-position = Vector2( 3546.7, -1768.75 )
+position = Vector2( 9808.85, 1856.01 )
 
 [node name="Camera2D" type="Camera2D" parent="YSort/Player"]
 position = Vector2( -2.51147, 134.556 )
@@ -742,7 +743,7 @@ position = Vector2( 5206.43, 3164.06 )
 position = Vector2( 9024.88, -5734.81 )
 
 [node name="library" parent="YSort" instance=ExtResource( 19 )]
-position = Vector2( 3144.52, -4463.59 )
+position = Vector2( 3141.85, -4460.92 )
 
 [node name="shop_2x3" parent="YSort" instance=ExtResource( 25 )]
 position = Vector2( 980.878, -2351.37 )
@@ -899,3 +900,8 @@ position = Vector2( 5387.8, 3297.71 )
 
 [node name="school3" parent="YSort" instance=ExtResource( 36 )]
 position = Vector2( 3388.58, -6526.62 )
+
+[node name="Area2D" parent="." instance=ExtResource( 41 )]
+position = Vector2( 6916.3, 5517.02 )
+rotation = 1.0472
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
