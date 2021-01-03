@@ -112,7 +112,7 @@ position = Vector2( -3240.82, 3317.4 )
 [node name="Player" parent="YSort" groups=[
 "Persist",
 ] instance=ExtResource( 2 )]
-position = Vector2( 9808.85, 1856.01 )
+position = Vector2( 6570.55, 744.829 )
 
 [node name="StaticBody2D" parent="YSort" instance=ExtResource( 7 )]
 position = Vector2( 29.0266, -5.52098 )

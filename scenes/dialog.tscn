@@ -53,10 +53,10 @@ __meta__ = {
 }
 
 [node name="dialogue" type="Label" parent="DialogueSystem/DialogBox/box"]
-anchor_left = -1.05932
-anchor_top = -3.05
-anchor_right = -1.02542
-anchor_bottom = -3.05
+anchor_left = -1.0572
+anchor_top = -3.36251
+anchor_right = -0.396186
+anchor_bottom = -2.73751
 margin_left = 600.0
 margin_top = 446.4
 margin_right = 640.0
@@ -64,15 +64,16 @@ margin_bottom = 460.4
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Dialogue"
 valign = 1
+autowrap = true
 __meta__ = {
 "_edit_use_anchors_": true
 }
 
 [node name="speaker" type="Label" parent="DialogueSystem/DialogBox/box"]
-anchor_left = -1.17797
-anchor_top = -3.05
-anchor_right = -1.15678
-anchor_bottom = -3.05
+anchor_left = -1.24576
+anchor_top = -3.34689
+anchor_right = -1.17585
+anchor_bottom = -3.28439
 margin_left = 600.0
 margin_top = 446.4
 margin_right = 640.0
