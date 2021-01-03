@@ -24,6 +24,10 @@ config/name="Productathon"
 run/main_scene="res://Player_s.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+ProgressManager="*res://scenes/ProgressManager.tscn"
+
 [rendering]
 
 quality/driver/driver_name="GLES2"

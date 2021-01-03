@@ -21,8 +21,8 @@ func save() -> Dictionary:
 	var save_dict = {
 		"filename" : get_filename(),
 		"parent" : get_parent().get_path(),
-		"pos_x": position.x,
-		"pos_y": position.y,
+		"pos_x": position.x + 100,
+		"pos_y": position.y + 100,
 	}
 	return save_dict
 # Called every frame. 'delta' is the elapsed time since the previous frame.
