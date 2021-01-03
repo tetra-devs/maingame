@@ -1,13 +1,77 @@
 {
     "0": {
-        "text": "Hi",
+        "text": "bhāṭakāya upalabdham asti.",
         "type": "assertive",
-        "character": "Hell",
+        "character": "Hell"
     },
     "1": {
-        "text": "What is your name?",
-        "type": "question",
-        "answer": "Arkadeep De",
-        "character": "Hell",
+        "text": "dhanyavādaḥ",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "2": {
+        "text": "svāgatam.",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "3": {
+        "text": "ām nah",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "4": {
+        "text": "kālasamjaḥ/kālasangha, bigyansamajah/bigyansangha,Chikitsalayah,Sangsad,Granthagar",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "5": {
+        "text": "kiyata mulayam asti.",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "6": {
+        "text": "idangḥ sthānam ahaṁ sangrakṣhāmi.",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "7": {
+        "text": "ahaṁm atra sadaḥsyaḥ bhāvitum icchāmi/ ahaṁm atra sadaḥsyaḥta vāñchāmi",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "8": {
+        "text": "Sahayaketweno aham atra karjyah kartu shakomi ba ?",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "9": {
+        "text": "OitihasikaSarbyakhanaya Grame Asmin ahang samagatah. SangrahalayaKartubhyi asmadabedanang Angikiyate Chetah Mahadupkaya Vabet",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "10": {
+        "text": "kripaya mama kuteh pustakām anbiṣyatam. (puruṣaḥ :  mahila  cha ubhāh )",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "11": {
+        "text": "bhāvāna kinm pustakang pothoti ?",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "12": {
+        "text": "pustakāmidang bhājanam pakḥkritibishyakāñca asti. (mahila vāktrīkh)",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "13": {
+        "text": "mhaṁtakalakāraviṣaḥyasambandi  pustakāmidanm.",
+        "type": "assertive",
+        "character": "Hell"
+    },
+    "14": {
+        "text": "aitihasikasthāna ashmina adhikadikani Aithasikadhyani ka bartyante",
+        "type": "assertive",
+        "character": "Hell"
     }
 }
