@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=2]
+[gd_scene load_steps=32 format=2]
 
 [ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=1]
 [ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallE.tscn" type="PackedScene" id=2]
@@ -30,8 +30,10 @@
 [ext_resource path="res://Library/empty_table.tscn" type="PackedScene" id=28]
 [ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/doorS.tscn" type="PackedScene" id=29]
 [ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/doorW.tscn" type="PackedScene" id=30]
+[ext_resource path="res://resources/sitting_lok/sitting_body.tscn" type="PackedScene" id=31]
 
 [node name="Node2D" type="Node2D"]
+position = Vector2( -0.261108, 0 )
 
 [node name="TileMap" type="TileMap" parent="."]
 mode = 1
@@ -388,6 +390,7 @@ position = Vector2( -45.2699, 25.2755 )
 position = Vector2( -1365.5, 608.522 )
 
 [node name="chair_table" type="YSort" parent="YSort"]
+position = Vector2( 0, 0.261169 )
 
 [node name="round_tablec" parent="YSort/chair_table" instance=ExtResource( 15 )]
 position = Vector2( 1123.44, 539.856 )
@@ -406,6 +409,9 @@ position = Vector2( -746.573, 1108.01 )
 
 [node name="schiar" parent="YSort/chair_table" instance=ExtResource( 19 )]
 position = Vector2( -1515.05, 746.38 )
+
+[node name="StaticBody2D2" parent="YSort/chair_table/schiar" instance=ExtResource( 31 )]
+position = Vector2( 2.52612, 40.4675 )
 
 [node name="schiar3" parent="YSort/chair_table" instance=ExtResource( 19 )]
 position = Vector2( -766.586, 1092.72 )

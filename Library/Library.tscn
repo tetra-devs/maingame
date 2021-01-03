@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=2]
+[gd_scene load_steps=30 format=2]
 
 [ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/Wallw.tscn" type="PackedScene" id=1]
 [ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=2]
@@ -28,6 +28,7 @@
 [ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/doorS.tscn" type="PackedScene" id=26]
 [ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/doorW.tscn" type="PackedScene" id=27]
 [ext_resource path="res://resources/accesable_miniature/Indoors/Room_small/WallS.tscn" type="PackedScene" id=28]
+[ext_resource path="res://resources/sitting_lok/sitting_body.tscn" type="PackedScene" id=29]
 
 [node name="Library" type="Node"]
 script = ExtResource( 18 )
@@ -458,6 +459,9 @@ position = Vector2( 45.7334, 1487.19 )
 
 [node name="Bookself1" parent="YSort/Librarian_ct" instance=ExtResource( 17 )]
 position = Vector2( -2464.66, 1134.02 )
+
+[node name="StaticBody2D" parent="YSort/Librarian_ct/Bookself1" instance=ExtResource( 29 )]
+position = Vector2( 7.34448, 58.5936 )
 
 [node name="Bookself2" parent="YSort/Librarian_ct" instance=ExtResource( 16 )]
 position = Vector2( -2451.82, 1150.24 )
