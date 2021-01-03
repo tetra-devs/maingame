@@ -5,8 +5,9 @@ onready var speaker = $DialogBox/box/speaker
 onready var box = $DialogBox/box
 
 export (String, FILE, "*.json") var dialogue_file_path: String
+signal completed
 
-var index = -1
+var index = 0
 var loadedDialogue: Dictionary
 
 onready var dialogLoader: DialogueLoader = $DialogueLoader
@@ -31,7 +32,17 @@ func _ready() -> void:
 
 func _on_Button_button_down() -> void:
 	tween.stop(dialogue)
+	dialogue.visible_characters = dialogue.text.length()
 	index += 1
 	if index < loadedDialogue.size():
 		set_state(loadedDialogue[String(index)])
 		process_state(state)
+	else:
+		set_visible(false)
+		emit_signal("completed")
+
+func start() -> void:
+	set_visible(true)
+	set_state(loadedDialogue[String(index)])
+	process_state(state)
+	

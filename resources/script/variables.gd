@@ -1,18 +1,16 @@
-extends Node2D
+extends Node
 
-onready var system = $DialogueSystem
 
 # Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
+# var a: int = 2
+# var b: String = "text"
+var position = Vector2.ZERO
 
 # Called when the node enters the scene tree for the first time.
-func _ready():
-	system.start()
-	ProgressManager.load_game()
+func _ready() -> void:
 	pass # Replace with function body.
 
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
+#func _process(delta: float) -> void:
 #	pass
