@@ -15,6 +15,8 @@ We are using ```GoDot``` game engine for the development purpose of the game.To 
 * Git. [See steps](https://www.atlassian.com/git/tutorials/install-git)
 * ```GoDot``` for your operating System (Linux/MAC OS/Windows).[See the installation steps](https://godotengine.org/download/)
 
+* After cloning the repo just open the project from ```GoDot```.
+
 ## Getting Started
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/tetra-devs/maingame?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/tetra-devs/maingame?color=bluevoilet&logo=github)](https://github.com/tetra-devs/maingame/commits/) [![GitHub repo size](https://img.shields.io/github/repo-size/tetra-devs/maingame?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/)
