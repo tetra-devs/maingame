@@ -3,6 +3,14 @@
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)](https://github.com/tetra-devs/maingame/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timers-only) [![GitHub license](https://img.shields.io/github/license/tetra-devs/maingame.svg?logo=github)](https://github.com/tetra-devs/maingame/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/tetra-devs/maingame.svg?logo=github)](https://github.com/tetra-devs/maingame/stargazers) [![GitHub forks](https://img.shields.io/github/forks/tetra-devs/maingame.svg?logo=github&color=teal)](https://github.com/tetra-devs/maingame/network/members) [![GitHub top language](https://img.shields.io/github/languages/top/tetra-devs/maingame?color=yellow&logo=python)](https://github.com/tetra-devs/maingame)
 ## Team TetraDev Productathon 2020 Submission
 
+
+
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+
 ---
 > ## :mask: [COVID-19](http://corona-cases-india.netlify.com/) | Stay Home, Stay Safe! :house:  <br> :mag_right: Checkout [this](http://corona-cases-india.netlify.com/) web app for live CORONA updates.
 > ## :bar_chart: Checkout the [COVID-19 Tracker :mask: | INDIA](https://indiafightscorona.netlify.app/) :india:
@@ -136,6 +144,19 @@ The planning board contains all issues and pull requests grouped see them in act
 1. [Isometric Dungeon Tiles](https://www.kenney.nl/assets/isometric-dungeon-tiles).This package contains isometric (and top-down) tiles for dungeon environments, also includes a character (8 directions / 3 animations). Included are walls, floors, furniture, crates, barrels, stairs and more. Also includes a sample for use with Unity Engine and Tiled.
 
 2. [Isometric Library Tiles](https://www.kenney.nl/assets/isometric-library-tiles).This package contains isometric (and top-down) tiles for library environments. Included are walls, floors, tables, bookcases and more. Also includes a sample for use with Unity Engine and Tiled.
+
+## Maintainers ✨
+
+Thanks goes to these wonderful people who are maintaining the project.
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ayan-biswas0412"><img src="https://avatars1.githubusercontent.com/u/52851184?v=4" width="100px;" alt=""/><br /><sub><b>AYAN BISWAS</b></sub></a><br /><a href="#infra-ayan-biswas0412" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/Andy260700"><img src="https://avatars1.githubusercontent.com/u/59414365?s=460&v=4" width="100px;" alt=""/><br /><sub><b>ARPAN NANDY</b></sub></a><br /><a href="#infra-Andy260700" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/Sayantan0013"><img src="https://avatars3.githubusercontent.com/u/74588398?s=460&u=74a2d23ec23ea48ea944016ba4b6b78739dbbf05&v=4" width="100px;" alt=""/><br /><sub><b>SAYANTAN BISWAS</b></sub></a><br /><a href="#infra-Sayantan0013" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/arkadeepde142"><img src="https://avatars2.githubusercontent.com/u/18644980?s=460&v=4" width="100px;" alt=""/><br /><sub><b>ARKADEEP DE</b></sub></a><br /><a href="#infra-arkadeepde142" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+  </tr>
+</table>
 
 
 
