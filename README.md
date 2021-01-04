@@ -1,4 +1,6 @@
 # Sanskritam Game
+
+[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)](https://github.com/tetra-devs/maingame/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timers-only) [![GitHub license](https://img.shields.io/github/license/tetra-devs/maingame.svg?logo=github)](https://github.com/tetra-devs/maingame/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/tetra-devs/maingame.svg?logo=github)](https://github.com/tetra-devs/maingame/stargazers) [![GitHub forks](https://img.shields.io/github/forks/tetra-devs/maingame.svg?logo=github&color=teal)](https://github.com/tetra-devs/maingame/network/members) [![GitHub top language](https://img.shields.io/github/languages/top/tetra-devs/maingame?color=yellow&logo=python)](https://github.com/tetra-devs/maingame)
 ## Team TetraDev Productathon 2020 Submission
 
 ### Our Aim
