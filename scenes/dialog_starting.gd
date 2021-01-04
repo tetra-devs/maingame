@@ -4,6 +4,7 @@ onready var system = $DialogueSystem
 onready var dialogue = $DialogueSystem/DialogBox/box/dialogue
 onready var speaker = $DialogueSystem/DialogBox/box/speaker
 onready var box = $DialogueSystem/DialogBox/box
+
 signal completed
 
 var index: int = 0
@@ -49,4 +50,5 @@ func start() -> void:
 	system.set_visible(true)
 	set_state(loadedDialogue[String(index)])
 	process_state(state)
+
 

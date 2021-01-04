@@ -49,7 +49,7 @@ __meta__ = {
 "_edit_horizontal_guides_": [  ]
 }
 
-[node name="initial story" parent="." instance=ExtResource( 39 )]
+[node name="initial_story" parent="." instance=ExtResource( 39 )]
 
 [node name="main_dialogue" parent="." instance=ExtResource( 42 )]
 
@@ -900,5 +900,5 @@ position = Vector2( 3388.58, -6526.62 )
 [node name="Area2D" parent="." instance=ExtResource( 41 )]
 position = Vector2( 6916.3, 5517.02 )
 rotation = 1.0472
-[connection signal="completed" from="initial story" to="." method="_on_initial_story_completed"]
+[connection signal="completed" from="initial_story" to="." method="_on_initial_story_completed"]
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]

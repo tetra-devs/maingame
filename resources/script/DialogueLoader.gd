@@ -1,5 +1,4 @@
 extends Node
-class_name DialogueLoader
 
 export (String, FILE, "*.json") var dialogue_file_path: String setget set_dialogue_file_path
 
@@ -17,6 +16,5 @@ func get_dialogue() -> Dictionary:
 	return dialogue
 
 func set_dialogue_file_path(path: String) -> void:
-	print(path)
 	assert(path.ends_with(".json"))
 	dialogue_file_path = path

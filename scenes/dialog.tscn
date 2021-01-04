@@ -38,10 +38,10 @@ anchor_left = 0.55
 anchor_top = 1.05
 anchor_right = 0.55
 anchor_bottom = 1.05
-margin_left = -235.347
-margin_top = -155.92
-margin_right = 236.653
-margin_bottom = -27.9208
+margin_left = -262.791
+margin_top = -244.969
+margin_right = 354.209
+margin_bottom = -21.969
 texture = ExtResource( 4 )
 expand = true
 stretch_mode = 1
@@ -50,10 +50,10 @@ __meta__ = {
 }
 
 [node name="dialogue" type="Label" parent="DialogueSystem/DialogBox/box"]
-anchor_left = -1.0572
-anchor_top = -3.36251
-anchor_right = -0.396186
-anchor_bottom = -2.73751
+anchor_left = -0.73406
+anchor_top = -1.83842
+anchor_right = -0.0730455
+anchor_bottom = -1.21342
 margin_left = 600.0
 margin_top = 446.4
 margin_right = 640.0
@@ -67,10 +67,10 @@ __meta__ = {
 }
 
 [node name="speaker" type="Label" parent="DialogueSystem/DialogBox/box"]
-anchor_left = -1.22361
-anchor_top = -3.27542
-anchor_right = -1.1537
-anchor_bottom = -3.21292
+anchor_left = -0.925584
+anchor_top = -1.72817
+anchor_right = -0.855674
+anchor_bottom = -1.66567
 margin_left = 600.0
 margin_top = 446.4
 margin_right = 640.0
@@ -84,10 +84,10 @@ __meta__ = {
 }
 
 [node name="Button" type="Button" parent="DialogueSystem/DialogBox/box"]
-margin_left = 378.597
-margin_top = 93.2273
-margin_right = 410.597
-margin_bottom = 121.227
+margin_left = 486.034
+margin_top = 165.54
+margin_right = 518.034
+margin_bottom = 193.54
 icon = ExtResource( 1 )
 flat = true
 expand_icon = true
