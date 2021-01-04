@@ -145,7 +145,7 @@ The planning board contains all issues and pull requests grouped see them in act
 
 2. [Isometric Library Tiles](https://www.kenney.nl/assets/isometric-library-tiles).This package contains isometric (and top-down) tiles for library environments. Included are walls, floors, tables, bookcases and more. Also includes a sample for use with Unity Engine and Tiled.
 
-## Maintainers ✨
+## Contributors and Maintainers ✨
 
 Thanks goes to these wonderful people who are maintaining the project.
 
