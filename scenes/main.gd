@@ -20,5 +20,5 @@ func _ready():
 
 
 func _on_initial_story_completed():
-	system_main.set_dialogue_file_path ("res://resources/dialogue/lesson1.json")
+	system_main.set_dialogue_file_path ("res://resources/dialogue/obj1.json")
 	system_main.start()
