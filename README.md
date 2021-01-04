@@ -3,6 +3,11 @@
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)](https://github.com/tetra-devs/maingame/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timers-only) [![GitHub license](https://img.shields.io/github/license/tetra-devs/maingame.svg?logo=github)](https://github.com/tetra-devs/maingame/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/tetra-devs/maingame.svg?logo=github)](https://github.com/tetra-devs/maingame/stargazers) [![GitHub forks](https://img.shields.io/github/forks/tetra-devs/maingame.svg?logo=github&color=teal)](https://github.com/tetra-devs/maingame/network/members) [![GitHub top language](https://img.shields.io/github/languages/top/tetra-devs/maingame?color=yellow&logo=python)](https://github.com/tetra-devs/maingame)
 ## Team TetraDev Productathon 2020 Submission
 
+---
+> ## :mask: [COVID-19](http://corona-cases-india.netlify.com/) | Stay Home, Stay Safe! :house:  <br> :mag_right: Checkout [this](http://corona-cases-india.netlify.com/) web app for live CORONA updates.
+> ## :bar_chart: Checkout the [COVID-19 Tracker :mask: | INDIA](https://indiafightscorona.netlify.app/) :india:
+---
+
 ### Our Aim
 
 To develop an interactive game which has a goal to teach the rich and vast language to the community.We are expecting to set some of the levels or checkpoints to our game to teach the **language Sanskrit** to the players.
@@ -133,9 +138,6 @@ The planning board contains all issues and pull requests grouped see them in act
 2. [Isometric Library Tiles](https://www.kenney.nl/assets/isometric-library-tiles).This package contains isometric (and top-down) tiles for library environments. Included are walls, floors, tables, bookcases and more. Also includes a sample for use with Unity Engine and Tiled.
 
 
----
-> ## :mask: [COVID-19](http://corona-cases-india.netlify.com/) | Stay Home, Stay Safe! :house:  <br> :mag_right: Checkout [this](http://corona-cases-india.netlify.com/) web app for live CORONA updates.
-> ## :bar_chart: Checkout the [COVID-19 Tracker :mask: | INDIA](https://indiafightscorona.netlify.app/) :india:
----
+
 
 
