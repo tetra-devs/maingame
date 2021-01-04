@@ -1,0 +1,31 @@
+{
+    "0": {
+        "text": "atra Agaccha (Come here) .   Agachha is derived from root 'Agam' means to come. whereas 'gam' means to go ",
+        "type": "assertive",
+        "character": "person 1",
+        "new": {
+            "0": {
+                "text": "atra"
+            },
+            "1": {
+                "text": "Agachha"
+            }
+        }
+    },
+    "1": {
+        "text": "saH atra nAsti (he is not here) .  nAsti refers to negative auxilliary (is not)",
+        "type": "assertive",
+        "character": "person 2",
+        "new": {
+            "0": {
+                "text": "nAsti"
+            },
+            "1": {
+                "text": "atra"
+            },
+            "2": {
+                "text": "saH"
+            }
+        }
+    }
+}
