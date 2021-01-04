@@ -3,7 +3,7 @@
 
 ### Our Aim
 
-To develop an interactive game which has a goal to teach the rich and vast language to the community.We are expecting to set some of the levels or checkpoints to our game to teach the **lanugate Sanskrit** to the players.
+To develop an interactive game which has a goal to teach the rich and vast language to the community.We are expecting to set some of the levels or checkpoints to our game to teach the **language Sanskrit** to the players.
 
 
 ### Development and Installation
