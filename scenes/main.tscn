@@ -904,4 +904,5 @@ position = Vector2( 3388.58, -6526.62 )
 position = Vector2( 6916.3, 5517.02 )
 rotation = 1.0472
 [connection signal="completed" from="initial_story" to="." method="_on_initial_story_completed"]
+[connection signal="report" from="CanvasLayer" to="main_dialogue" method="_on_CanvasLayer_report"]
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]

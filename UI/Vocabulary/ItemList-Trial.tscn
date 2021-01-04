@@ -92,5 +92,6 @@ text = "Open"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+[connection signal="report" from="Control/Panel" to="." method="_on_Panel_report"]
 [connection signal="pressed" from="Control/Panel/exit" to="Control/Panel" method="_on_exit_pressed"]
 [connection signal="pressed" from="Control/Button" to="." method="_on_Button_pressed"]

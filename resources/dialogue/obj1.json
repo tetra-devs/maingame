@@ -31,7 +31,7 @@
 },
 "6" : {
     "text" : "idaM sthAnam ahaṁ sangrakShaAmi.",
-    "type" : "assertive",
-    "character" : "user_input"
+    "type" : "user_input",
+    "character" : "you"
 }
 }

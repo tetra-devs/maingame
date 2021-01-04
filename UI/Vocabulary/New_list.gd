@@ -1,5 +1,5 @@
 extends CanvasLayer
-
+signal report(value)
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -13,3 +13,7 @@ func _ready():
 
 func _on_Button_pressed():
 	$Control/Panel.set_visible(true)
+
+
+func _on_Panel_report(value):
+	emit_signal('report',value)

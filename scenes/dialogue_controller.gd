@@ -55,7 +55,7 @@ func _on_Button_button_down() -> void:
 			system.set_visible(false)
 			emit_signal("completed")
 	elif state['type'] == 'user_input':
-		if $DialogueSystem/DialogBox/box/TextEdit.text == state['text']:
+		if $DialogueSystem/DialogBox/box/TextEdit.text == state['text']+' ':
 			index += 1
 			if index < loadedDialogue.size():
 				set_state(loadedDialogue[String(index)])
@@ -73,3 +73,9 @@ func start() -> void:
 	set_state(loadedDialogue[String(index)])
 	process_state(state)
 
+
+
+func _on_CanvasLayer_report(value):
+	if $DialogueSystem/DialogBox/box/TextEdit.visible == true:
+		$DialogueSystem/DialogBox/box/TextEdit.text += value + " "
+	
