@@ -13,7 +13,7 @@
 
 ---
 > ## :mask: [COVID-19](http://corona-cases-india.netlify.com/) | Stay Home, Stay Safe! :house:  <br> :mag_right: Checkout [this](http://corona-cases-india.netlify.com/) web app for live CORONA updates.
-> ## :bar_chart: Checkout the [COVID-19 Tracker :mask: | INDIA](https://indiafightscorona.netlify.app/) :india:
+> ## :bar_chart: Checkout the [COVID-19 Tracker :mask: | INDIA](https://www.covid19india.org/) :india:
 ---
 
 ### Our Aim
