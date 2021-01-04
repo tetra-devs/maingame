@@ -17,5 +17,6 @@ func get_dialogue() -> Dictionary:
 	return dialogue
 
 func set_dialogue_file_path(path: String) -> void:
+	print(path)
 	assert(path.ends_with(".json"))
 	dialogue_file_path = path

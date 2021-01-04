@@ -18,5 +18,20 @@
         "text": "‘I want the design at any cost ! Any cost...This has to be done in utmost silence and I don’t want  too many people spoiling the mission…this man knows all about their language, and almost all that has to be done, take good care of him and you have to do everything else by yourself ! Now leave…'",
         "type":"assertive",
         "character": "Boss"
+    },
+    "4" : {
+        "text": "‘Listen boy…they speak the beautiful language of Sanskrit…and to succeed in what’s laying ahead, you have to learn it….you need to learn Sanskrit’",
+        "type":"assertive",
+        "character":"the old man"
+    },
+    "5" : {
+        "text": "but how ?",
+        "type":"assertive",
+        "character": "you"
+    },
+    "6" : {
+        "text": "‘The best way to learn a language is to be where it is spoken….to listen what’s spoken…but there’s some basics I’ll tell you first’",
+        "type": "assertive",
+        "character":"the old man"
     }
 }
