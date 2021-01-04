@@ -1,0 +1,96 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://UI/Vocabulary/ItemList-Trial.gd" type="Script" id=1]
+[ext_resource path="res://UI/Vocabulary/Old-Paper-2.jpg" type="Texture" id=2]
+[ext_resource path="res://UI/Vocabulary/x.png" type="Texture" id=3]
+[ext_resource path="res://UI/Vocabulary/New_list.gd" type="Script" id=4]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource( 4 )
+
+[node name="Control" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="Control"]
+margin_top = 5.0
+margin_right = 400.0
+margin_bottom = 404.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="Control/Panel"]
+margin_left = 2.24744
+margin_top = -4.0
+margin_right = 400.247
+margin_bottom = 405.0
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label-StaticNote" type="Label" parent="Control/Panel"]
+margin_left = 71.9282
+margin_top = 265.473
+margin_right = 185.928
+margin_bottom = 279.473
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "You Have Chosen:"
+
+[node name="Label - output" type="Label" parent="Control/Panel"]
+margin_left = 197.365
+margin_top = 264.582
+margin_right = 237.365
+margin_bottom = 278.582
+custom_colors/font_color = Color( 0.0390625, 0.00213623, 0.00213623, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemList" type="ItemList" parent="Control/Panel"]
+margin_left = 69.4568
+margin_top = 28.8909
+margin_right = 296.457
+margin_bottom = 243.891
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GoButton" type="Button" parent="Control/Panel"]
+margin_left = 112.492
+margin_top = 305.8
+margin_right = 228.492
+margin_bottom = 325.8
+text = "Go"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="exit" type="Button" parent="Control/Panel"]
+margin_left = 335.0
+margin_top = 24.0
+margin_right = 859.0
+margin_bottom = 542.0
+rect_scale = Vector2( 0.05, 0.05 )
+icon = ExtResource( 3 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Control"]
+margin_left = 45.0
+margin_top = 542.0
+margin_right = 88.0
+margin_bottom = 570.0
+text = "Open"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Control/Panel/exit" to="Control/Panel" method="_on_exit_pressed"]
+[connection signal="pressed" from="Control/Button" to="." method="_on_Button_pressed"]

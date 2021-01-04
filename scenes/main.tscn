@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=2]
+[gd_scene load_steps=44 format=2]
 
 [ext_resource path="res://resources/tilesets/stone_walls_and_floors.tres" type="TileSet" id=1]
 [ext_resource path="res://resources/characters/Player.tscn" type="PackedScene" id=2]
@@ -42,6 +42,7 @@
 [ext_resource path="res://scenes/main.gd" type="Script" id=40]
 [ext_resource path="res://resources/transition/transition_F_T.tscn" type="PackedScene" id=41]
 [ext_resource path="res://scenes/dialog.tscn" type="PackedScene" id=42]
+[ext_resource path="res://UI/Vocabulary/ItemList-Trial.tscn" type="PackedScene" id=43]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 40 )
@@ -52,6 +53,8 @@ __meta__ = {
 [node name="initial_story" parent="." instance=ExtResource( 39 )]
 
 [node name="main_dialogue" parent="." instance=ExtResource( 42 )]
+
+[node name="CanvasLayer" parent="." instance=ExtResource( 43 )]
 
 [node name="dirt" type="TileMap" parent="."]
 mode = 1
