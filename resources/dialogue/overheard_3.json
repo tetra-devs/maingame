@@ -1,11 +1,11 @@
 {
     "0": {
-        "text": "vAstavika mUlya ?(actual price ?)",
+        "text": "aham pazu saMraksami (I am preserving animals)",
         "type": "assertive",
         "character": "person 1",
         "new": {
             "0": {
-                "text": "mUlyaM"
+                "text": "pazu"
             },
             "1": {
                 "text": "vAstavika"
@@ -13,12 +13,12 @@
         }
     },
     "1": {
-        "text": "nah, hInmUlya (no, low price) ",
+        "text": " ",
         "type": "assertive",
         "character": "person 1",
         "new": {
             "0": {
-                "text": "hIn"
+                "text": ""
             }
         }
     }

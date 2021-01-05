@@ -5,12 +5,12 @@
     "character":"the old man"
 },
 "1" : {
-    "text": "To the person in front of them ask “how much is the rate ?” And to the lowest - come back and say 'reserve this place for me'",
+    "text": "To the person in front of them ask “how much is the rate ?”",
     "type":"assertive",
     "character":"the old man" 
 },
 "2": {
-    "text" : "kiyat mulayam asti ?",
+    "text" : "kiyat mUlyaM asti ?",
     "type" : "user_input",
     "character" : "you" 
 },
@@ -19,18 +19,28 @@
     "type" : "assertive",
     "character" : "host" 
 },
-"4": {
-    "text" : "kiyat mulayam asti ?",
+"4" : {
+    "text": "go to the next house and ask the price",
+    "type":"assertive",
+    "character": " "
+},
+"5": {
+    "text" : "kiyat mUlyaM asti ?",
     "type" : "user_input",
     "character" : "you" 
 },
-"5": {
+"6": {
     "text" : "2700",
     "type" : "assertive",
     "character" : "host" 
 },
-"6" : {
-    "text" : "idaM sthAnam ahaṁ sangrakShaAmi.",
+"7":{
+    "text" : "And to the lowest - come back and say 'reserve this place for me'",
+    "type" : "assertive",
+    "character": " "
+},
+"8" : {
+    "text" : "idaM sthAnam aham saMrakSami.",
     "type" : "user_input",
     "character" : "you"
 }
