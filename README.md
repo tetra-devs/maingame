@@ -145,7 +145,7 @@ The planning board contains all issues and pull requests grouped see them in act
 
 1. [Isometric Dungeon Tiles](https://www.kenney.nl/assets/isometric-dungeon-tiles).This package contains isometric (and top-down) tiles for dungeon environments, also includes a character (8 directions / 3 animations). Included are walls, floors, furniture, crates, barrels, stairs and more. Also includes a sample for use with Unity Engine and Tiled.
 
-2. [Isometric Library Tiles](https://www.kenney.nl/assets/isometric-library-tiles).This package contains isometric (and top-down) tiles for library environments. Included are walls, floors, tables, bookcases and more. Also includes a sample for use with Unity Engine and Tiled.
+2. [Isometric Library Tiles](https://www.kenney.nl/assets/isometric-library-tiles).This package contains isometric (and top-down) tiles for library environments. Included are walls, floors, tables, bookcases and more. Also includes a sample for use with Unity Engine and Tiled and it helps a lot in our map development.
 
 ## Contributors and Maintainers ✨
 
