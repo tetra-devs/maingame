@@ -1,5 +1,4 @@
 extends Node
-class_name DialogueLoader
 
 export (String, FILE, "*.json") var dialogue_file_path: String setget set_dialogue_file_path
 

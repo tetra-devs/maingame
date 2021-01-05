@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://UI/Vocabulary/Panel.gd" type="Script" id=1]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="Panel" type="Panel" parent="."]
+anchor_left = 0.2
+anchor_top = 0.2
+anchor_right = 0.8
+anchor_bottom = 0.8
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel"]
+anchor_left = 0.297
+anchor_top = 0.53
+anchor_right = 0.354
+anchor_bottom = 0.548
+text = "Hello"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="Panel"]
+anchor_left = 0.375
+anchor_top = 0.532
+anchor_right = 0.911
+anchor_bottom = 0.586
+
+[node name="ItemList" type="ItemList" parent="Panel"]
+anchor_left = 0.28
+anchor_top = 0.091
+anchor_right = 0.768
+anchor_bottom = 0.476
+
+[node name="Button" type="Button" parent="Panel"]
+anchor_left = 0.44
+anchor_top = 0.673
+anchor_right = 0.595
+anchor_bottom = 0.673
+text = "Add"
+__meta__ = {
+"_edit_use_anchors_": false
+}

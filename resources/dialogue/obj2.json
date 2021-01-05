@@ -1,0 +1,12 @@
+{
+    "0" : {
+        "text": "go become a member in the library, we will need that soon. Search the library. Tap on librarian and say ‘I want to be a member here’",
+        "type" : "assertive",
+        "character":"the old man"
+    },
+    "1":{
+        "text" : "ahaM atra sadahsyaH bhaAvitum icchaAmi",
+        "type" : "user_input",
+        "character": "you"
+    }
+}

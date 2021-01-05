@@ -1,0 +1,25 @@
+{
+    "0": {
+        "text": "aham pazu saMraksami (I am preserving animals)",
+        "type": "assertive",
+        "character": "person 1",
+        "new": {
+            "0": {
+                "text": "pazu"
+            },
+            "1": {
+                "text": "vAstavika"
+            }
+        }
+    },
+    "1": {
+        "text": " ",
+        "type": "assertive",
+        "character": "person 1",
+        "new": {
+            "0": {
+                "text": ""
+            }
+        }
+    }
+}

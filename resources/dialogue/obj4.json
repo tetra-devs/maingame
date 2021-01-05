@@ -1,0 +1,22 @@
+{
+    "0" : {
+        "text" : "the library seems to be of tremendous importance, find a way to get unrestricted access to it.Ask the librarian ‘can I work as an assistant here ?’. Say thank you if he says yes",
+        "type" : "assertive",
+        "character" :"the old man"
+    },
+    "1": {
+        "text" : "Sahayaketweno aham atra kAryah kartu zaknoti va ?",
+        "type" : "user_input",
+        "character": "you"
+    },
+    "2": {
+        "text" : "Am",
+        "type" : "assertive",
+        "character": "librarian"
+    },
+    "3": {
+        "text" : "dhanyavAdaH",
+        "type" : "user_input",
+        "character": "you"
+    }
+}

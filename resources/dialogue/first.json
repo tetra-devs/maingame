@@ -1,13 +1,136 @@
 {
-    "0": {
-        "text": "Hi",
-        "type": "assertive",
-        "character": "Hell",
+    
+    "0" : {
+        "text": "Village ‘Purna’ is under disguised threat from foreign smugglers. Under the disguise of archeological surveys they are trying to traffic some valuable artefacts and scriptures. They have already done some, and heading towards one ultimate target.",
+        "type" : "assertive",
+        "character" : "the story"
     },
-    "1": {
-        "text": "What is your name?",
-        "type": "question",
-        "answer": "Arkadeep De",
-        "character": "Hell",
+    "1" : {
+        "text": "They haven’t succeeded because the village is special - because it speaks one single language, which is known to none.",
+        "type": "assertive",
+        "character": "the story"
+    },
+    "2" : {
+        "text": "Being an Indian agent, you have to stop the invaders from succeeding in their mission. You had been in their team for a month, and now finally the operation begins...",
+        "type":"assertive",
+        "character":"the story"
+    },
+    "3" : {
+        "text": "‘I want the design at any cost ! Any cost...This has to be done in utmost silence and I don’t want  too many people spoiling the mission…this man knows all about their language, and almost all that has to be done, take good care of him and you have to do everything else by yourself ! Now leave…'",
+        "type":"assertive",
+        "character": "Boss"
+    },
+    "4" : {
+        "text": "‘Listen boy…they speak the beautiful language of Sanskrit…and to succeed in what’s laying ahead, you have to learn it….you need to learn Sanskrit’",
+        "type":"assertive",
+        "character":"the old man"
+    },
+    "5" : {
+        "text": "but how ?",
+        "type":"assertive",
+        "character": "you"
+    },
+    "6" : {
+        "text": "‘The best way to learn a language is to be where it is spoken….to listen what’s spoken…but there’s some basics I’ll tell you first’",
+        "type": "assertive",
+        "character":"the old man"
+    },
+    "7": {
+        "text" : "In sanskrit there are 2 types of vowels - with short crisp prounounciations scripted as a,e,i,o,u and another group with longer and broader pronounciation written as A,E,I,O,U. the consonants also have 2 groups - the lighter group scripted as 'ka','ga','ta','da','ba','pa','ma' etc. and a heavier group with an extra 'h'- 'kha', 'gha', 'pha', 'bha', 'tha' etc. Consonants as usual get pronounced with the help of vowels.",
+        "type": "assertive",
+        "character":"the old man"
+    },
+    "8": {
+        "text" : "there are 3 genders (lingam) : , and 3 vachana : (singular), (double), (plural-more than 3)" 
+    },
+    "10": {
+        "text" : "Search for a house, so that we can live inside the village and carry out operations. Search all houses available for rent, ask their prices and book the one with lowest rate.",
+        "type": "assertive",
+        "character":"the old man"
+    },
+    "11" : {
+        "text": "To the person in front of them ask “what is the rate ?” And to the lowest - come back and say “book please”",
+        "type":"assertive",
+        "character":"the old man" 
+    },
+    "12": {
+        "text" : "",
+        "type" : "assertive",
+        "character" : "you" 
+    },
+    "13": {
+        "text" : "",
+        "type" : "assertive",
+        "character" : "host" 
+    },
+    "14": {
+        "text" : "",
+        "type" : "assertive",
+        "character" : "you" 
+    },
+    "15": {
+        "text" : "",
+        "type" : "assertive",
+        "character" : "host" 
+    },
+    "16" : {
+        "text" : "",
+        "type" : "assertive",
+        "character" : "you"
+    },
+    "17" : {
+        "text" : "",
+        "type" : "assertive",
+        "character" : "the old man"
+    },
+    "18" : {
+        "text": "go become a member in the library, we will need that soon. Search the library. Tap on librarian and say ‘I want to be a member here’",
+        "type" : "assertive",
+        "character":"the old man"
+    },
+    "19" : {
+        "text" : "",
+        "type" : "assertive",
+        "character": "you"
+    },
+    "20": {
+        "text" : "we will also need resources from the art and science societies. Search buildings art society and science society written on it. Tap on president and say ‘I want to be a member here’.",
+        "type" : "assertive",
+        "character":"the old man"
+    },
+    "21": {
+        "text" : "",
+        "type" : "assertive",
+        "character": "you"
+    },
+    "22": {
+        "text" : "",
+        "type" : "assertive",
+        "character": "you"
+    },
+    "23" : {
+        "text" : "the library seems to be of tremendous importance, find a way to get unrestricted access to it.Ask the librarian ‘can I work as an assistant here ?’. Say thank you if he says yes",
+        "type" : "assertive",
+        "character" :"the old man"
+    },
+    "24": {
+        "text" : "",
+        "type" : "assertive",
+        "character": "you"
+    },
+    "25": {
+        "text" : "",
+        "type" : "question",
+        "character": "librarian"
+    },
+    "26": {
+        "text" : "",
+        "type" : "assertive",
+        "character": "you"
+    },
+    "27" : {
+            "text" : "",
+            "type" : "assertive",
+            "character": "old man"
     }
 }

@@ -17,5 +17,6 @@ func _ready():
 
 
 func _on_Area2D_body_entered(body):
+	ProgressManager.save_game()
 	get_tree().change_scene("res://resources/accesable_miniature/Indoors/Science_socity.tscn")
 	

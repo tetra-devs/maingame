@@ -1,0 +1,25 @@
+{
+    "0": {
+        "text": "vAstavika mUlya ?(actual price ?)",
+        "type": "assertive",
+        "character": "person 1",
+        "new": {
+            "0": {
+                "text": "mUlyaM"
+            },
+            "1": {
+                "text": "vAstavika"
+            }
+        }
+    },
+    "1": {
+        "text": "nah, hInmUlya (no, low price) ",
+        "type": "assertive",
+        "character": "person 1",
+        "new": {
+            "0": {
+                "text": "hIn"
+            }
+        }
+    }
+}
