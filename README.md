@@ -16,14 +16,14 @@
 > ## :bar_chart: Checkout the [COVID-19 Tracker :mask: | INDIA](https://www.covid19india.org/) :india:
 ---
 
-### Our Aim
+### Our Aim ✨
 
 To develop an interactive game which has a goal to teach the rich and vast language to the community.We are expecting to set some of the levels or checkpoints to our game to teach the **language Sanskrit** to the players.We have developed a village in which all people talks in Sanskrit and the player has to interact with them to learn Sanskrit language
 
 <p align="center"><img width="85%" src="./screenshots/main-readme.png" /></p>
 
 
-### Development and Installation
+### Development and Installation ✨
 
 We are using ```GoDot``` game engine for the development purpose of the game.To develop with us below mentioned technologies should be pre-installed in our machine
 
@@ -32,7 +32,7 @@ We are using ```GoDot``` game engine for the development purpose of the game.To 
 
 * After cloning the repo just open the project from ```GoDot```.
 
-## Getting Started
+## Getting Started ✨
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/tetra-devs/maingame?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/tetra-devs/maingame?color=bluevoilet&logo=github)](https://github.com/tetra-devs/maingame/commits/) [![GitHub repo size](https://img.shields.io/github/repo-size/tetra-devs/maingame?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/)
 
@@ -110,7 +110,7 @@ git push -u origin <your_branch_name>
 
 **9.** **Congratulations!** Sit and relax, you've made your contribution to our project
 
-### Repository Structure
+### Repository Structure ✨
 
 #### Our main scene is located at ```scenes/main.tscn```
 #### Some of the main folder structures are described here
@@ -124,7 +124,7 @@ This folder contains all the assets such as tileset pngs and other binaries. You
 This foler contains main scenes which are used in our main map such as various models of houses, player accessable areas, Grass layouts,Rooms indoors and many more.Any tyoe of contribution is highly welcome.
 
 
-Getting Involved
+Getting Involved ✨
 ----------------
 Depending on what you want to contribute, you need to take different steps
 to get your development environment set up.
@@ -139,7 +139,7 @@ If you have game development skills you are most welcome otherwise you can learn
 If you'd like to add more Sanskrit Resources to the game then you are also most welcome, you need not to be a game developer for that.
 
 The planning board contains all issues and pull requests grouped see them in active issues and PRs of this repository
-### Used Libraries and Resources
+### Used Libraries and Resources ✨
 
 #### Assets use for TileSet Formation
 
@@ -159,6 +159,11 @@ Thanks goes to these wonderful people who are maintaining the project.
     <td align="center"><a href="https://github.com/arkadeepde142"><img src="https://avatars2.githubusercontent.com/u/18644980?s=460&v=4" width="100px;" alt=""/><br /><sub><b>ARKADEEP DE</b></sub></a><br /><a href="#infra-arkadeepde142" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
+
+
+## Game Built on GoDot Game Engine ✨
+
+<p align="center"><img width="60%" src="./screenshots/godot.png" /></p>
 
 
 
