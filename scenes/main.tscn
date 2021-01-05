@@ -122,7 +122,7 @@ position = Vector2( -3240.82, 3317.4 )
 [node name="Player" parent="YSort" groups=[
 "Persist",
 ] instance=ExtResource( 2 )]
-position = Vector2( 6570.55, 744.829 )
+position = Vector2( 12833.3, 3258.88 )
 
 [node name="StaticBody2D" parent="YSort" instance=ExtResource( 7 )]
 position = Vector2( 29.0266, -5.52098 )
@@ -887,7 +887,7 @@ position = Vector2( 3240.82, -3317.4 )
 position = Vector2( 239.219, 1365.78 )
 
 [node name="Node2D4" parent="YSort/YSort2" instance=ExtResource( 37 )]
-position = Vector2( 3308.18, 4388.56 )
+position = Vector2( 8580.33, 5994.73 )
 
 [node name="Node2D5" parent="YSort/YSort2" instance=ExtResource( 37 )]
 position = Vector2( 2227.39, 4482.54 )
@@ -896,21 +896,23 @@ position = Vector2( 2227.39, 4482.54 )
 position = Vector2( 1539.51, 1358.02 )
 
 [node name="Node2D3" parent="YSort/YSort2" instance=ExtResource( 38 )]
-position = Vector2( 3004.19, 628.859 )
+position = Vector2( 6206.17, 5032.17 )
 
 [node name="Node2D6" parent="YSort/YSort2" instance=ExtResource( 38 )]
-position = Vector2( 5387.8, 3297.71 )
+position = Vector2( 5387.8, 3299.55 )
 
 [node name="school3" parent="YSort" instance=ExtResource( 36 )]
 position = Vector2( 3388.58, -6526.62 )
 
 [node name="Area2D" parent="YSort" instance=ExtResource( 41 )]
-position = Vector2( 10389.7, 2042.65 )
+position = Vector2( 10390.2, 2043.2 )
 rotation = 1.0472
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 44 )
 [connection signal="completed" from="initial_story" to="." method="_on_initial_story_completed"]
 [connection signal="report" from="Vocubulary_box" to="main_dialogue" method="_on_CanvasLayer_report"]
+[connection signal="hear" from="YSort/YSort2/Node2D4" to="." method="_on_Node2D4_hear"]
 [connection signal="hear" from="YSort/YSort2/Node2D2" to="." method="_on_Node2D2_hear"]
+[connection signal="hear" from="YSort/YSort2/Node2D3" to="." method="_on_Node2D3_hear"]
 [connection signal="body_entered" from="YSort/Area2D" to="." method="_on_Area2D_body_entered"]

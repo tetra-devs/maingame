@@ -28,3 +28,18 @@ func _on_initial_story_completed():
 func _on_Node2D2_hear():
 	$Over_hearing.set_dialogue_file_path("res://resources/dialogue/overheard_1.json")
 	$Over_hearing.start()
+
+
+func _on_Node2D3_hear():
+	$Over_hearing.set_dialogue_file_path("res://resources/dialogue/overheard_2.json")
+	$Over_hearing.start()
+
+
+func _on_Area2D_body_entered(body):
+	ProgressManager.save_game()
+	get_tree().change_scene("res://resources/accesable_miniature/Indoors/player_room.tscn")
+
+
+func _on_Node2D4_hear():
+	$Over_hearing.set_dialogue_file_path("res://resources/dialogue/overheard_1.json")
+	$Over_hearing.start()

@@ -1,5 +1,5 @@
-extends Area2D
-
+extends StaticBody2D
+signal hear
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -16,6 +16,8 @@ func _ready():
 #	pass
 
 
-func _on_Area2D_body_entered(body):
-	ProgressManager.save_game()
-	get_tree().change_scene("res://resources/accesable_miniature/Indoors/player_room.tscn")
+func _on_ovh_body_entered(body):
+	print(body)
+	if body != self:
+		emit_signal('hear')
+	

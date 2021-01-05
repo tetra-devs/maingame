@@ -1,8 +1,15 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://resources/tilesets/conversing_chars.tres" type="TileSet" id=1]
+[ext_resource path="res://resources/speaking_characters/overhear.gd" type="Script" id=2]
 
 [node name="Node2D" type="StaticBody2D"]
+script = ExtResource( 2 )
+
+[node name="ovh" type="Area2D" parent="."]
+
+[node name="over_hear_zone" type="CollisionPolygon2D" parent="ovh"]
+polygon = PoolVector2Array( 12.4769, -1.96172, 141.937, 53.225, 2.51845, 158.619, -103.291, 76.4615 )
 
 [node name="TileMap" type="TileMap" parent="."]
 mode = 1
@@ -14,3 +21,4 @@ tile_data = PoolIntArray( -327686, 3, 0, -262150, 1, 0 )
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 position = Vector2( 110.619, -13.8825 )
 polygon = PoolVector2Array( -173.231, 87.189, -114.558, 25.168, -48.2688, 26.9612, 4.2171, 80.11, -113.295, 143.821 )
+[connection signal="body_entered" from="ovh" to="." method="_on_ovh_body_entered"]

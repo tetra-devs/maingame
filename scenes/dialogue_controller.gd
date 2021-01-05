@@ -48,6 +48,7 @@ func _on_Button_button_down() -> void:
 		tween.stop(dialogue)
 		dialogue.visible_characters = dialogue.text.length()
 		index += 1
+		
 		if index < loadedDialogue.size():
 			set_state(loadedDialogue[String(index)])
 			process_state(state)
@@ -56,6 +57,7 @@ func _on_Button_button_down() -> void:
 			emit_signal("completed")
 	elif state['type'] == 'user_input':
 		if $DialogueSystem/DialogBox/box/TextEdit.text == state['text']+' ':
+			$DialogueSystem/DialogBox/box/TextEdit.text = ''
 			index += 1
 			if index < loadedDialogue.size():
 				set_state(loadedDialogue[String(index)])

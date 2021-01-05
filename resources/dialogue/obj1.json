@@ -43,5 +43,10 @@
     "text" : "idaM sthAnam aham saMrakSami.",
     "type" : "user_input",
     "character" : "you"
+},
+"9" : {
+    "text" : "objective completed",
+    "type": "assertive",
+    "character": " "
 }
 }
