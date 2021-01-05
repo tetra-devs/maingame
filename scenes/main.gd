@@ -2,6 +2,7 @@ extends Node2D
 
 onready var system = $"initial_story"
 onready var system_main = $"main_dialogue"
+onready var over_hear = $Over_hearing
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
@@ -10,8 +11,8 @@ onready var system_main = $"main_dialogue"
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	ProgressManager.load_game()
-	$"initial_story".set_dialogue_file_path("res://resources/dialogue/story.json")
-	$"initial_story".start()
+	$initial_story.set_dialogue_file_path("res://resources/dialogue/story.json")
+	$initial_story.start()
 	# Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
