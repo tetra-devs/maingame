@@ -50,7 +50,7 @@ git clone https://github.com/<your-github-username>/maingame
 **3.** Navigate to the project directory.
 
 ```bash
-cd Water-Monitoring-System
+cd maingame
 ```
 
 **4.** Create a new branch.
