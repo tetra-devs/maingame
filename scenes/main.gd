@@ -23,3 +23,8 @@ func _ready():
 func _on_initial_story_completed():
 	system_main.set_dialogue_file_path ("res://resources/dialogue/obj1.json")
 	system_main.start()
+
+
+func _on_Node2D2_hear():
+	$Over_hearing.set_dialogue_file_path("res://resources/dialogue/overheard_1.json")
+	$Over_hearing.start()

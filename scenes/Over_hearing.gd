@@ -43,6 +43,7 @@ func _on_Button_button_down() -> void:
 		process_state(state)
 	else:
 		system.set_visible(false)
+		index=0
 		emit_signal("completed")
 
 func start() -> void:

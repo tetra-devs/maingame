@@ -1,6 +1,6 @@
 extends StaticBody2D
 
-signal hear(value)
+signal hear
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
@@ -16,5 +16,8 @@ func _ready():
 #	pass
 
 
-func _on_Area2D_body_entered(body,value):
-	emit_signal('hear',value)
+func _on_Area2D_body_entered(body):
+	print(body)
+	if body != self:
+		emit_signal('hear')
+	
